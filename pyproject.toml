@@ -19,9 +19,7 @@ classifiers = []
 [tool.poetry.dependencies]
 python = "^3.8"
 requests = "^2.22.0"
-lxml = "^4.6.2"
-rapdevpy = "^0.2.0"
-networkx = "^2.5.1"
+rapdevpy = "^0.3.0"
 
 [tool.poetry.dev-dependencies]
 pytest-cov = "^2.8.1"
