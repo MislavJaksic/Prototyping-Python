@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "protopy"
 version = "0.1.0"
-description = "Python prototyping sanbox."
+description = "Python prototyping sandbox."
 
 license = "MIT"
 authors = ["Mislav Jaksic <jaksicmislav@gmail.com>"]
