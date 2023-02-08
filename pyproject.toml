@@ -21,6 +21,7 @@ python = "^3.8"
 requests = "^2.22.0"
 rapdevpy = "^0.3.0"
 beautifulsoup4 = "^4.11.1"
+spacy = "^3.4.1"
 
 [tool.poetry.dev-dependencies]
 pytest-cov = "^2.8.1"

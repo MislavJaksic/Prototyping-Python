@@ -1,0 +1,1186 @@
+<ul style="margin-top: 0px; margin-bottom: 10296px;">
+    <li>
+        <span>
+            <span>Any <span class="has-inline-color has-really-green-color">Set</span> you want to play</span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-really-green-color">Keep</span></span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-mid-gray-color">All</span></span>
+        </span>
+        <span><span>Dealing any kind of damage</span></span>
+    </li>
+    <li>
+        <span>
+            <span>
+                <span class="d3planner-item item-legendary">
+                    <span class="d3planner-icon-wrap"><span class="d3planner-icon" style="background: rgba(0, 0, 0, 0) url('https://planner-assets.com/d3planner/css/items/wand.png?7ec372d9') no-repeat scroll 0px 0em;"></span></span>
+                    <span>Aether Walker</span>
+                </span>
+            </span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-really-green-color">Keep</span></span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-mid-purple-color">Wizard</span></span>
+        </span>
+        <span><span>Wizard speed builds</span></span>
+    </li>
+    <li>
+        <span>
+            <span>
+                <span class="d3planner-item item-legendary">
+                    <span class="d3planner-icon-wrap"><span class="d3planner-icon" style="background: rgba(0, 0, 0, 0) url('https://planner-assets.com/d3planner/css/items/chestarmor.png?660753ac') no-repeat scroll 0px 0em;"></span></span>
+                    <span>Aquila Cuirass</span>
+                </span>
+            </span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-really-green-color">Keep</span></span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-mid-gray-color">All</span></span>
+        </span>
+        <span><span>LoN/LoD &amp; support builds</span></span>
+    </li>
+    <li>
+        <span>
+            <span>
+                <span class="d3planner-item item-legendary">
+                    <span class="d3planner-icon-wrap">
+                        <span class="d3planner-icon" style="background: rgba(0, 0, 0, 0) url('https://planner-assets.com/d3planner/css/items/mightyweapon.png?894b76f9') no-repeat scroll 0px -3.6em;"></span>
+                    </span>
+                    <span>Ambo's Pride</span>
+                </span>
+            </span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-really-green-color">Keep</span></span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-mid-orange-color">Barbarian</span></span>
+        </span>
+        <span>
+            <span><a href="https://d3.maxroll.gg/guides/waste-set-ww-rend-barbarian-guide" target="_blank" rel="noopener noreferrer">Whirlwind</a> builds</span>
+        </span>
+    </li>
+    <li>
+        <span>
+            <span>
+                <span class="d3planner-item item-legendary">
+                    <span class="d3planner-icon-wrap"><span class="d3planner-icon" style="background: rgba(0, 0, 0, 0) url('https://planner-assets.com/d3planner/css/items/spear.png?ccb1c392') no-repeat scroll 0px 0em;"></span></span>
+                    <span>Arreat's Law</span>
+                </span>
+            </span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-really-green-color">Keep</span></span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-mid-orange-color">Barbarian</span></span>
+        </span>
+        <span>
+            <span><a href="/guides/raekor-boulder-toss-barbarian-guide" target="_blank" rel="noopener noreferrer">Ancient Spear</a> builds</span>
+        </span>
+    </li>
+    <li>
+        <span>
+            <span>
+                <span class="d3planner-item item-legendary">
+                    <span class="d3planner-icon-wrap"><span class="d3planner-icon" style="background: rgba(0, 0, 0, 0) url('https://planner-assets.com/d3planner/css/items/bracers.png?fa97b9aa') no-repeat scroll 0px -13.2em;"></span></span>
+                    <span>Ashnagarr's Blood Bracer</span>
+                </span>
+            </span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-really-green-color">Keep</span></span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-mid-purple-color">Wizard</span></span>
+        </span>
+        <span><span>Core defensive item</span></span>
+    </li>
+    <li>
+        <span>
+            <span>
+                <span class="d3planner-item item-legendary">
+                    <span class="d3planner-icon-wrap"><span class="d3planner-icon" style="background: rgba(0, 0, 0, 0) url('https://planner-assets.com/d3planner/css/items/ring.png?eefc2ef5') no-repeat scroll 0px -44.4em;"></span></span>
+                    <span>Avarice Band</span>
+                </span>
+            </span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-really-green-color">Keep</span></span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-mid-gray-color">All</span></span>
+        </span>
+        <span><span>T16 builds</span></span>
+    </li>
+    <li>
+        <span>
+            <span>
+                <span class="d3planner-item item-legendary">
+                    <span class="d3planner-icon-wrap"><span class="d3planner-icon" style="background: rgba(0, 0, 0, 0) url('https://planner-assets.com/d3planner/css/items/ring.png?eefc2ef5') no-repeat scroll 0px -12em;"></span></span>
+                    <span>Band of Might</span>
+                </span>
+            </span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-really-green-color">Keep</span></span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-mid-orange-color">Barbarian</span></span>
+        </span>
+        <span><span>Core defensive item</span></span>
+    </li>
+    <li>
+        <span>
+            <span>
+                <span class="d3planner-item item-legendary">
+                    <span class="d3planner-icon-wrap"><span class="d3planner-icon" style="background: rgba(0, 0, 0, 0) url('https://planner-assets.com/d3planner/css/items/belt.png?3c0aa013') no-repeat scroll 0px 0em;"></span></span>
+                    <span>Belt of the Trove</span>
+                </span>
+            </span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-really-green-color">Keep</span></span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-common-item-color">Crusader</span></span>
+        </span>
+        <span>
+            <span><a href="https://d3.maxroll.gg/guides/lon-bombardment-crusader-guide" target="_blank" rel="noopener noreferrer">LoD Bombardment</a></span>
+        </span>
+    </li>
+    <li>
+        <span>
+            <span>
+                <span class="d3planner-item item-legendary">
+                    <span class="d3planner-icon-wrap"><span class="d3planner-icon" style="background: rgba(0, 0, 0, 0) url('https://planner-assets.com/d3planner/css/items/bracers.png?fa97b9aa') no-repeat scroll 0px -22.8em;"></span></span>
+                    <span>Bindings of the Lesser Gods</span>
+                </span>
+            </span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-really-green-color">Keep</span></span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-rare-item-color">Monk</span></span>
+        </span>
+        <span>
+            <span>
+                <a href="https://d3.maxroll.gg/guides/lod-wave-of-light-monk-guide" target="_blank" rel="noopener noreferrer">Wave of Light</a> &amp;
+                <a href="https://d3.maxroll.gg/guides/inna-mystic-ally-monk-guide" target="_blank" rel="noopener noreferrer">Inna</a> builds
+            </span>
+        </span>
+    </li>
+    <li>
+        <span>
+            <span>
+                <span class="d3planner-item item-set">
+                    <span class="d3planner-icon-wrap"><span class="d3planner-icon" style="background: rgba(0, 0, 0, 0) url('https://planner-assets.com/d3planner/css/items/pants.png?8a22bf89') no-repeat scroll 0px -31.2em;"></span></span>
+                    <span>Blackthorne's Jousting Mail</span>
+                </span>
+            </span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-really-green-color">Keep</span></span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-mid-gray-color">All</span></span>
+        </span>
+        <span><span>LoN/LoD builds</span></span>
+    </li>
+    <li>
+        <span>
+            <span>
+                <span class="d3planner-item item-legendary">
+                    <span class="d3planner-icon-wrap"><span class="d3planner-icon" style="background: rgba(0, 0, 0, 0) url('https://planner-assets.com/d3planner/css/items/sword2h.png?a22c5367') no-repeat scroll 0px -1.2em;"></span></span>
+                    <span>Blade of Prophecy</span>
+                </span>
+            </span>
+        </span>
+        <span><span>Keep</span></span><span><span>Crusader</span></span>
+        <span>
+            <span><a href="https://d3.maxroll.gg/guides/akkhan-condemn-crusader-guide" target="_blank" rel="noopener noreferrer">Condemn</a> builds</span>
+        </span>
+    </li>
+    <li>
+        <span>
+            <span>
+                <span class="d3planner-item item-legendary">
+                    <span class="d3planner-icon-wrap"><span class="d3planner-icon" style="background: rgba(0, 0, 0, 0) url('https://planner-assets.com/d3planner/css/items/quiver.png?054a0d28') no-repeat scroll 0px -7.2em;"></span></span>
+                    <span>Bombardier's Rucksack</span>
+                </span>
+            </span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-really-green-color">Keep</span></span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-light-red-color">Demon Hunter</span></span>
+        </span>
+        <span>
+            <span>
+                <a href="https://d3.maxroll.gg/guides/support-demon-hunter-guide" target="_blank" rel="noopener noreferrer">Support</a> &amp;
+                <a href="https://d3.maxroll.gg/guides/marauder-sentry-demon-hunter-guide" target="_blank" rel="noopener noreferrer">Marauder</a> builds
+            </span>
+        </span>
+    </li>
+    <li>
+        <span>
+            <span>
+                <span class="d3planner-item item-legendary">
+                    <span class="d3planner-icon-wrap">
+                        <span class="d3planner-icon" style="background: rgba(0, 0, 0, 0) url('https://planner-assets.com/d3planner/css/items/phylactery.png?2e582289') no-repeat scroll 0px -3.6em;"></span>
+                    </span>
+                    <span>Bone Ringer</span>
+                </span>
+            </span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-really-green-color">Keep</span></span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-death-breath-color">Necromancer</span></span>
+        </span>
+        <span><span>Many builds just need any offhand</span></span>
+    </li>
+    <li>
+        <span>
+            <span>
+                <span class="d3planner-item item-legendary">
+                    <span class="d3planner-icon-wrap"><span class="d3planner-icon" style="background: rgba(0, 0, 0, 0) url('https://planner-assets.com/d3planner/css/items/polearm.png?e8348b54') no-repeat scroll 0px -4.8em;"></span></span>
+                    <span>Bovine Bardiche</span>
+                </span>
+            </span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-really-green-color">Keep</span></span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-mid-gray-color">All</span></span>
+        </span>
+        <span><span>Opening the Cow Level</span></span>
+    </li>
+    <li>
+        <span>
+            <span>
+                <span class="d3planner-item item-legendary">
+                    <span class="d3planner-icon-wrap"><span class="d3planner-icon" style="background: rgba(0, 0, 0, 0) url('https://planner-assets.com/d3planner/css/items/bracers.png?fa97b9aa') no-repeat scroll 0px -18em;"></span></span>
+                    <span>Bracer of Fury</span>
+                </span>
+            </span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-really-green-color">Keep</span></span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-common-item-color">Crusader</span></span>
+        </span>
+        <span>
+            <span><a href="https://d3.maxroll.gg/guides/aov-heavens-fury-crusader-guide" target="_blank" rel="noopener noreferrer">Heaven's Fury</a> builds</span>
+        </span>
+    </li>
+    <li>
+        <span>
+            <span>
+                <span class="d3planner-item item-legendary">
+                    <span class="d3planner-icon-wrap"><span class="d3planner-icon" style="background: rgba(0, 0, 0, 0) url('https://planner-assets.com/d3planner/css/items/ring.png?eefc2ef5') no-repeat scroll 0px -15.6em;"></span></span>
+                    <span>Briggs' Wrath</span>
+                </span>
+            </span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-really-green-color">Keep</span></span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-death-breath-color">Necromancer</span></span>
+        </span>
+        <span>
+            <span><a href="https://d3.maxroll.gg/guides/support-znecromancer-guide" target="_blank" rel="noopener noreferrer">Support</a> &amp; DPS builds</span>
+        </span>
+    </li>
+    <li>
+        <span>
+            <span>
+                <span class="d3planner-item item-legendary">
+                    <span class="d3planner-icon-wrap"><span class="d3planner-icon" style="background: rgba(0, 0, 0, 0) url('https://planner-assets.com/d3planner/css/items/helm.png?51da40ec') no-repeat scroll 0px 0em;"></span></span>
+                    <span>Broken Crown</span>
+                </span>
+            </span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-really-green-color">Keep</span></span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-mid-gray-color">All</span></span>
+        </span>
+        <span>
+            <span><a href="https://d3.maxroll.gg/resources/follower-mechanics" target="_blank" rel="noopener noreferrer">Followers</a></span>
+        </span>
+    </li>
+    <li>
+        <span>
+            <span>
+                <span class="d3planner-item item-legendary">
+                    <span class="d3planner-icon-wrap"><span class="d3planner-icon" style="background: rgba(0, 0, 0, 0) url('https://planner-assets.com/d3planner/css/items/belt.png?3c0aa013') no-repeat scroll 0px -28.8em;"></span></span>
+                    <span>Brood of Araneae</span>
+                </span>
+            </span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-really-green-color">Keep</span></span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-deep-green-color">Witch Doctor</span></span>
+        </span>
+        <span>
+            <span><a href="https://d3.maxroll.gg/guides/corpse-spiders-arachyr-witch-doctor-guide" target="_blank" rel="noopener noreferrer">Corpse Spiders</a> builds</span>
+        </span>
+    </li>
+    <li>
+        <span>
+            <span>
+                <span class="d3planner-item item-legendary">
+                    <span class="d3planner-icon-wrap"><span class="d3planner-icon" style="background: rgba(0, 0, 0, 0) url('https://planner-assets.com/d3planner/css/items/bracers.png?fa97b9aa') no-repeat scroll 0px -21.6em;"></span></span>
+                    <span>Cesar's Memento</span>
+                </span>
+            </span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-really-green-color">Keep</span></span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-rare-item-color">Monk</span></span>
+        </span>
+        <span>
+            <span>
+                <span class="d3planner-skill d3planner-build"><span class="d3p-skill-icon d3p-class-monk" style="background-position: -1em -2em;"></span><span>Tempest Rush</span></span> builds
+            </span>
+        </span>
+    </li>
+    <li>
+        <span>
+            <span>
+                <span class="d3planner-item item-legendary">
+                    <span class="d3planner-icon-wrap">
+                        <span class="d3planner-icon" style="background: rgba(0, 0, 0, 0) url('https://planner-assets.com/d3planner/css/items/mightybelt.png?54a8b208') no-repeat scroll 0px -9.6em;"></span>
+                    </span>
+                    <span>Chilanik's Chain</span>
+                </span>
+            </span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-really-green-color">Keep</span></span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-mid-orange-color">Barbarian</span></span>
+        </span>
+        <span>
+            <span><a href="https://d3.maxroll.gg/guides/support-zbarb-guide" target="_blank" rel="noopener noreferrer">Support</a> builds</span>
+        </span>
+    </li>
+    <li>
+        <span>
+            <span>
+                <span class="d3planner-item item-legendary">
+                    <span class="d3planner-icon-wrap"><span class="d3planner-icon" style="background: rgba(0, 0, 0, 0) url('https://planner-assets.com/d3planner/css/items/ring.png?eefc2ef5') no-repeat scroll 0px -14.4em;"></span></span>
+                    <span>Circle of Nailuj's Evol</span>
+                </span>
+            </span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-really-green-color">Keep</span></span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-death-breath-color">Necromancer</span></span>
+        </span>
+        <span>
+            <span><a href="https://d3.maxroll.gg/guides/lod-skeletal-mage-rat-necromancer" target="_blank" rel="noopener noreferrer">Rat Necro</a></span>
+        </span>
+    </li>
+    <li>
+        <span>
+            <span>
+                <span class="d3planner-item item-legendary">
+                    <span class="d3planner-icon-wrap"><span class="d3planner-icon" style="background: rgba(0, 0, 0, 0) url('https://planner-assets.com/d3planner/css/items/ring.png?eefc2ef5') no-repeat scroll 0px -3.6em;"></span></span>
+                    <span>Convention of Elements</span>
+                </span>
+            </span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-really-green-color">Keep</span></span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-mid-gray-color">All</span></span>
+        </span>
+        <span><span>Most pushing builds</span></span>
+    </li>
+    <li>
+        <span>
+            <span>
+                <span class="d3planner-item item-legendary">
+                    <span class="d3planner-icon-wrap">
+                        <span class="d3planner-icon" style="background: rgba(0, 0, 0, 0) url('https://planner-assets.com/d3planner/css/items/handcrossbow.png?00b668e6') no-repeat scroll 0px -2.4em;"></span>
+                    </span>
+                    <span>Dawn</span>
+                </span>
+            </span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-really-green-color">Keep</span></span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-light-red-color">Demon Hunter</span></span>
+        </span>
+        <span><span>Core class item</span></span>
+    </li>
+    <li>
+        <span>
+            <span>
+                <span class="d3planner-item item-legendary">
+                    <span class="d3planner-icon-wrap"><span class="d3planner-icon" style="background: rgba(0, 0, 0, 0) url('https://planner-assets.com/d3planner/css/items/belt.png?3c0aa013') no-repeat scroll 0px -25.2em;"></span></span>
+                    <span>Dayntee's Binding</span>
+                </span>
+            </span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-really-green-color">Keep</span></span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-death-breath-color">Necromancer</span></span>
+        </span>
+        <span><span>Core defensive item</span></span>
+    </li>
+    <li>
+        <span>
+            <span>
+                <span class="d3planner-item item-legendary">
+                    <span class="d3planner-icon-wrap"><span class="d3planner-icon" style="background: rgba(0, 0, 0, 0) url('https://planner-assets.com/d3planner/css/items/quiver.png?054a0d28') no-repeat scroll 0px 0em;"></span></span>
+                    <span>Dead Man's Legacy</span>
+                </span>
+            </span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-really-green-color">Keep</span></span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-light-red-color">Demon Hunter</span></span>
+        </span>
+        <span>
+            <span><a href="https://d3.maxroll.gg/guides/ue-multishot-demon-hunter-guide" target="_blank" rel="noopener noreferrer">Multishot</a> builds</span>
+        </span>
+    </li>
+    <li>
+        <span>
+            <span>
+                <span class="d3planner-item item-legendary">
+                    <span class="d3planner-icon-wrap"><span class="d3planner-icon" style="background: rgba(0, 0, 0, 0) url('https://planner-assets.com/d3planner/css/items/sword.png?c7f648d6') no-repeat scroll 0px -4.8em;"></span></span>
+                    <span>Deathwish</span>
+                </span>
+            </span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-really-green-color">Keep</span></span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-mid-purple-color">Wizard</span></span>
+        </span>
+        <span><span>Channeling builds</span></span>
+    </li>
+    <li>
+        <span>
+            <span>
+                <span class="d3planner-item item-legendary">
+                    <span class="d3planner-icon-wrap"><span class="d3planner-icon" style="background: rgba(0, 0, 0, 0) url('https://planner-assets.com/d3planner/css/items/pants.png?8a22bf89') no-repeat scroll 0px -26.4em;"></span></span>
+                    <span>Depth Diggers</span>
+                </span>
+            </span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-really-green-color">Keep</span></span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-mid-gray-color">Multiple</span></span>
+        </span>
+        <span><span>Generator builds</span></span>
+    </li>
+    <li>
+        <span>
+            <span>
+                <span class="d3planner-item item-legendary">
+                    <span class="d3planner-icon-wrap"><span class="d3planner-icon" style="background: rgba(0, 0, 0, 0) url('https://planner-assets.com/d3planner/css/items/mace.png?4215ca50') no-repeat scroll 0px 0em;"></span></span>
+                    <span>Echoing Fury</span>
+                </span>
+            </span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-really-green-color">Keep</span></span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-mid-gray-color">Multiple</span></span>
+        </span>
+        <span><span>Many farming builds</span></span>
+    </li>
+    <li>
+        <span>
+            <span>
+                <span class="d3planner-item item-legendary">
+                    <span class="d3planner-icon-wrap"><span class="d3planner-icon" style="background: rgba(0, 0, 0, 0) url('https://planner-assets.com/d3planner/css/items/ring.png?eefc2ef5') no-repeat scroll 0px -9.6em;"></span></span>
+                    <span>Elusive Ring</span>
+                </span>
+            </span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-really-green-color">Keep</span></span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-light-red-color">Demon Hunter</span></span>
+        </span>
+        <span><span>Core defensive item</span></span>
+    </li>
+    <li>
+        <span>
+            <span>
+                <span class="d3planner-item item-legendary">
+                    <span class="d3planner-icon-wrap"><span class="d3planner-icon" style="background: rgba(0, 0, 0, 0) url('https://planner-assets.com/d3planner/css/items/source.png?f5761994') no-repeat scroll 0px -2.4em;"></span></span>
+                    <span>Etched Sigil</span>
+                </span>
+            </span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-really-green-color">Keep</span></span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-mid-purple-color">Wizard</span></span>
+        </span>
+        <span>
+            <span><a href="https://d3.maxroll.gg/guides/lod-twister-wizard-guide" target="_blank" rel="noopener noreferrer">Twister</a> builds</span>
+        </span>
+    </li>
+    <li>
+        <span>
+            <span>
+                <span class="d3planner-item item-legendary">
+                    <span class="d3planner-icon-wrap"><span class="d3planner-icon" style="background: rgba(0, 0, 0, 0) url('https://planner-assets.com/d3planner/css/items/belt.png?3c0aa013') no-repeat scroll 0px -10.8em;"></span></span>
+                    <span>Fazula's Improbable Chain</span>
+                </span>
+            </span>
+        </span>
+        <span><span>Keep</span></span><span><span>Wizard</span></span>
+        <span>
+            <span>
+                <span class="d3planner-skill d3planner-build"><span class="d3p-skill-icon d3p-class-wizard" style="background-position: -2em -10em;"></span><span>Archon</span></span> builds
+            </span>
+        </span>
+    </li>
+    <li>
+        <span>
+            <span>
+                <span class="d3planner-item item-set">
+                    <span class="d3planner-icon-wrap"><span class="d3planner-icon" style="background: rgba(0, 0, 0, 0) url('https://planner-assets.com/d3planner/css/items/flail2h.png?607b55ac') no-repeat scroll 0px -3.6em;"></span></span>
+                    <span>Flail of the Charge</span>
+                </span>
+            </span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-really-green-color">Keep</span></span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-common-item-color">Crusader</span></span>
+        </span>
+        <span><span>Core class item</span></span>
+    </li>
+    <li>
+        <span>
+            <span>
+                <span class="d3planner-item item-set">
+                    <span class="d3planner-icon-wrap"><span class="d3planner-icon" style="background: rgba(0, 0, 0, 0) url('https://planner-assets.com/d3planner/css/items/ring.png?eefc2ef5') no-repeat scroll 0px -46.8em;"></span></span>
+                    <span>Focus</span>
+                </span>
+            </span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-really-green-color">Keep</span></span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-mid-gray-color">Multiple</span></span>
+        </span>
+        <span><span>Core DPS item</span></span>
+    </li>
+    <li>
+        <span>
+            <span>
+                <span class="d3planner-item item-legendary">
+                    <span class="d3planner-icon-wrap">
+                        <span class="d3planner-icon" style="background: rgba(0, 0, 0, 0) url('https://planner-assets.com/d3planner/css/items/handcrossbow.png?00b668e6') no-repeat scroll 0px -4.8em;"></span>
+                    </span>
+                    <span>Fortress Ballista</span>
+                </span>
+            </span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-really-green-color">Keep</span></span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-light-red-color">Demon Hunter</span></span>
+        </span>
+        <span>
+            <span><a href="https://d3.maxroll.gg/guides/god-ha-demon-hunter-guide" target="_blank" rel="noopener noreferrer">GoD DH</a></span>
+        </span>
+    </li>
+    <li>
+        <span>
+            <span>
+                <span class="d3planner-item item-legendary">
+                    <span class="d3planner-icon-wrap"><span class="d3planner-icon" style="background: rgba(0, 0, 0, 0) url('https://planner-assets.com/d3planner/css/items/wand.png?7ec372d9') no-repeat scroll 0px -4.8em;"></span></span>
+                    <span>Fragment of Destiny</span>
+                </span>
+            </span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-really-green-color">Keep</span></span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-mid-purple-color">Wizard</span></span>
+        </span>
+        <span>
+            <span><a href="https://d3.maxroll.gg/guides/typhon-hydra-wizard-guide" target="_blank" rel="noopener noreferrer">Hydra</a> builds</span>
+        </span>
+    </li>
+    <li>
+        <span>
+            <span>
+                <span class="d3planner-item item-legendary">
+                    <span class="d3planner-icon-wrap"><span class="d3planner-icon" style="background: rgba(0, 0, 0, 0) url('https://planner-assets.com/d3planner/css/items/scythe.png?fe2c8ccd') no-repeat scroll 0px -1.2em;"></span></span>
+                    <span>Funerary Pick</span>
+                </span>
+            </span>
+        </span>
+        <span><span>Keep</span></span><span><span>Necromancer</span></span>
+        <span>
+            <span>
+                <a href="https://d3.maxroll.gg/guides/lod-death-nova-necromancer-guide" target="_blank" rel="noopener noreferrer">Death Nova</a> &amp;
+                <a href="https://d3.maxroll.gg/guides/rathma-army-of-the-dead-necromancer-guide" target="_blank" rel="noopener noreferrer">AotD</a> builds
+            </span>
+        </span>
+    </li>
+    <li>
+        <span>
+            <span>
+                <span class="d3planner-item item-legendary">
+                    <span class="d3planner-icon-wrap"><span class="d3planner-icon" style="background: rgba(0, 0, 0, 0) url('https://planner-assets.com/d3planner/css/items/mojo.png?f9464e05') no-repeat scroll 0px -1.2em;"></span></span>
+                    <span>Gazing Demise</span>
+                </span>
+            </span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-really-green-color">Keep</span></span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-deep-green-color">Witch Doctor</span></span>
+        </span>
+        <span>
+            <span><a href="https://d3.maxroll.gg/guides/mundunugu-spirit-barrage-witch-doctor-guide" target="_blank" rel="noopener noreferrer">Spirit Barrage</a> builds</span>
+        </span>
+    </li>
+    <li>
+        <span>
+            <span>
+                <span class="d3planner-item item-legendary">
+                    <span class="d3planner-icon-wrap"><span class="d3planner-icon" style="background: rgba(0, 0, 0, 0) url('https://planner-assets.com/d3planner/css/items/bracers.png?fa97b9aa') no-repeat scroll 0px -24em;"></span></span>
+                    <span>Gelmindor's Marrow Guards</span>
+                </span>
+            </span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-really-green-color">Keep</span></span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-death-breath-color">Necromancer</span></span>
+        </span>
+        <span>
+            <span><a href="https://d3.maxroll.gg/guides/masquerade-bone-spear-necromancer-guide" target="_blank" rel="noopener noreferrer">Bone Spear</a> builds</span>
+        </span>
+    </li>
+    <li>
+        <span>
+            <span>
+                <span class="d3planner-item item-legendary">
+                    <span class="d3planner-icon-wrap"><span class="d3planner-icon" style="background: rgba(0, 0, 0, 0) url('https://planner-assets.com/d3planner/css/items/gloves.png?8034c900') no-repeat scroll 0px -33.6em;"></span></span>
+                    <span>Gloves of Worship</span>
+                </span>
+            </span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-really-green-color">Keep</span></span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-mid-gray-color">All</span></span>
+        </span>
+        <span>
+            <span><a href="https://d3.maxroll.gg/resources/follower-mechanics" target="_blank" rel="noopener noreferrer">Followers</a></span>
+        </span>
+    </li>
+    <li>
+        <span>
+            <span>
+                <span class="d3planner-item item-legendary">
+                    <span class="d3planner-icon-wrap"><span class="d3planner-icon" style="background: rgba(0, 0, 0, 0) url('https://planner-assets.com/d3planner/css/items/belt.png?3c0aa013') no-repeat scroll 0px -38.4em;"></span></span>
+                    <span>Goldwrap</span>
+                </span>
+            </span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-really-green-color">Keep</span></span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-mid-gray-color">All</span></span>
+        </span>
+        <span><span>T16 builds</span></span>
+    </li>
+    <li>
+        <span>
+            <span>
+                <span class="d3planner-item item-legendary">
+                    <span class="d3planner-icon-wrap"><span class="d3planner-icon" style="background: rgba(0, 0, 0, 0) url('https://planner-assets.com/d3planner/css/items/ring.png?eefc2ef5') no-repeat scroll 0px -6em;"></span></span>
+                    <span>Halo of Karini</span>
+                </span>
+            </span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-really-green-color">Keep</span></span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-mid-purple-color">Wizard</span></span>
+        </span>
+        <span><span>Core defensive item</span></span>
+    </li>
+    <li>
+        <span>
+            <span>
+                <span class="d3planner-item item-legendary">
+                    <span class="d3planner-icon-wrap"><span class="d3planner-icon" style="background: rgba(0, 0, 0, 0) url('https://planner-assets.com/d3planner/css/items/amulet.png?7973137b') no-repeat scroll 0px -3.6em;"></span></span>
+                    <span>Haunted Visions</span>
+                </span>
+            </span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-really-green-color">Keep</span></span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-death-breath-color">Necromancer</span></span>
+        </span>
+        <span><span>Core class item</span></span>
+    </li>
+    <li>
+        <span>
+            <span>
+                <span class="d3planner-item item-legendary">
+                    <span class="d3planner-icon-wrap"><span class="d3planner-icon" style="background: rgba(0, 0, 0, 0) url('https://planner-assets.com/d3planner/css/items/mojo.png?f9464e05') no-repeat scroll 0px 0em;"></span></span>
+                    <span>Henri's Perquisition</span>
+                </span>
+            </span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-really-green-color">Keep</span></span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-deep-green-color">Witch Doctor</span></span>
+        </span>
+        <span><span>Cuteness &amp; defensive option</span></span>
+    </li>
+    <li>
+        <span>
+            <span>
+                <span class="d3planner-item item-legendary">
+                    <span class="d3planner-icon-wrap"><span class="d3planner-icon" style="background: rgba(0, 0, 0, 0) url('https://planner-assets.com/d3planner/css/items/belt.png?3c0aa013') no-repeat scroll 0px -24em;"></span></span>
+                    <span>Hergbrash's Binding</span>
+                </span>
+            </span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-really-green-color">Keep</span></span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-mid-purple-color">Wizard</span></span>
+        </span>
+        <span>
+            <span><a href="https://d3.maxroll.gg/guides/lod-twister-wizard-guide" target="_blank" rel="noopener noreferrer">Twister</a> builds</span>
+        </span>
+    </li>
+    <li>
+        <span>
+            <span>
+                <span class="d3planner-item item-legendary">
+                    <span class="d3planner-icon-wrap">
+                        <span class="d3planner-icon" style="background: rgba(0, 0, 0, 0) url('https://planner-assets.com/d3planner/css/items/shoulders.png?55b69231') no-repeat scroll 0px -20.4em;"></span>
+                    </span>
+                    <span>Homing Pads</span>
+                </span>
+            </span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-really-green-color">Keep</span></span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-mid-gray-color">All</span></span>
+        </span>
+        <span>
+            <span><a href="https://d3.maxroll.gg/resources/follower-mechanics" target="_blank" rel="noopener noreferrer">Followers</a></span>
+        </span>
+    </li>
+    <li>
+        <span>
+            <span>
+                <span class="d3planner-item item-legendary">
+                    <span class="d3planner-icon-wrap"><span class="d3planner-icon" style="background: rgba(0, 0, 0, 0) url('https://planner-assets.com/d3planner/css/items/belt.png?3c0aa013') no-repeat scroll 0px -8.4em;"></span></span>
+                    <span>Hunter's Wrath</span>
+                </span>
+            </span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-really-green-color">Keep</span></span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-light-red-color">Demon Hunter</span></span>
+        </span>
+        <span>
+            <span><a href="https://d3.maxroll.gg/guides/god-ha-demon-hunter-guide" target="_blank" rel="noopener noreferrer">GoD DH</a> &amp; generator builds</span>
+        </span>
+    </li>
+    <li>
+        <span>
+            <span>
+                <span class="d3planner-item item-legendary">
+                    <span class="d3planner-icon-wrap"><span class="d3planner-icon" style="background: rgba(0, 0, 0, 0) url('https://planner-assets.com/d3planner/css/items/boots.png?1bbd6a2d') no-repeat scroll 0px -25.2em;"></span></span>
+                    <span>Ice Climbers</span>
+                </span>
+            </span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-really-green-color">Keep</span></span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-mid-gray-color">All</span></span>
+        </span>
+        <span>
+            <span>LoN/LoD builds &amp; <a href="https://d3.maxroll.gg/resources/follower-mechanics" target="_blank" rel="noopener noreferrer">Followers</a></span>
+        </span>
+    </li>
+    <li>
+        <span>
+            <span>
+                <span class="d3planner-item item-legendary">
+                    <span class="d3planner-icon-wrap"><span class="d3planner-icon" style="background: rgba(0, 0, 0, 0) url('https://planner-assets.com/d3planner/css/items/boots.png?1bbd6a2d') no-repeat scroll 0px -36em;"></span></span>
+                    <span>Illusory Boots</span>
+                </span>
+            </span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-really-green-color">Keep</span></span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-mid-gray-color">All</span></span>
+        </span>
+        <span><span>LoN/LoD builds</span></span>
+    </li>
+    <li>
+        <span>
+            <span>
+                <span class="d3planner-item item-legendary">
+                    <span class="d3planner-icon-wrap"><span class="d3planner-icon" style="background: rgba(0, 0, 0, 0) url('https://planner-assets.com/d3planner/css/items/sword.png?c7f648d6') no-repeat scroll 0px -22.8em;"></span></span>
+                    <span>In-geom</span>
+                </span>
+            </span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-really-green-color">Keep</span></span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-mid-gray-color">All</span></span>
+        </span>
+        <span><span>Speedfarming builds</span></span>
+    </li>
+    <li>
+        <span>
+            <span>
+                <span class="d3planner-item item-legendary">
+                    <span class="d3planner-icon-wrap">
+                        <span class="d3planner-icon" style="background: rgba(0, 0, 0, 0) url('https://planner-assets.com/d3planner/css/items/phylactery.png?2e582289') no-repeat scroll 0px -2.4em;"></span>
+                    </span>
+                    <span>Iron Rose</span>
+                </span>
+            </span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-really-green-color">Keep</span></span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-death-breath-color">Necromancer</span></span>
+        </span>
+        <span>
+            <span><a href="https://d3.maxroll.gg/guides/lod-death-nova-necromancer-guide" target="_blank" rel="noopener noreferrer">Death Nova</a> builds</span>
+        </span>
+    </li>
+    <li>
+        <span>
+            <span>
+                <span class="d3planner-item item-legendary">
+                    <span class="d3planner-icon-wrap"><span class="d3planner-icon" style="background: rgba(0, 0, 0, 0) url('https://planner-assets.com/d3planner/css/items/ring.png?eefc2ef5') no-repeat scroll 0px -16.8em;"></span></span>
+                    <span>Krysbin's Sentence</span>
+                </span>
+            </span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-really-green-color">Keep</span></span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-death-breath-color">Necromancer</span></span>
+        </span>
+        <span><span>Core class item</span></span>
+    </li>
+    <li>
+        <span>
+            <span>
+                <span class="d3planner-item item-legendary">
+                    <span class="d3planner-icon-wrap">
+                        <span class="d3planner-icon" style="background: rgba(0, 0, 0, 0) url('https://planner-assets.com/d3planner/css/items/fistweapon.png?83f49d1e') no-repeat scroll 0px -8.4em;"></span>
+                    </span>
+                    <span>Kyoshiro's Blade</span>
+                </span>
+            </span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-really-green-color">Keep</span></span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-rare-item-color">Monk</span></span>
+        </span>
+        <span>
+            <span><a href="https://d3.maxroll.gg/guides/lod-wave-of-light-monk-guide" target="_blank" rel="noopener noreferrer">Wave of Light</a> builds</span>
+        </span>
+    </li>
+    <li>
+        <span>
+            <span>
+                <span class="d3planner-item item-legendary">
+                    <span class="d3planner-icon-wrap">
+                        <span class="d3planner-icon" style="background: rgba(0, 0, 0, 0) url('https://planner-assets.com/d3planner/css/items/mightybelt.png?54a8b208') no-repeat scroll 0px -3.6em;"></span>
+                    </span>
+                    <span>Lamentation</span>
+                </span>
+            </span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-really-green-color">Keep</span></span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-mid-orange-color">Barbarian</span></span>
+        </span>
+        <span>
+            <span><a href="https://d3.maxroll.gg/guides/waste-set-ww-rend-barbarian-guide" target="_blank" rel="noopener noreferrer">Whirlwind</a> builds</span>
+        </span>
+    </li>
+    <li>
+        <span>
+            <span>
+                <span class="d3planner-item item-legendary">
+                    <span class="d3planner-icon-wrap"><span class="d3planner-icon" style="background: rgba(0, 0, 0, 0) url('https://planner-assets.com/d3planner/css/items/bracers.png?fa97b9aa') no-repeat scroll 0px -15.6em;"></span></span>
+                    <span>Lakumba's Ornament</span>
+                </span>
+            </span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-really-green-color">Keep</span></span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-deep-green-color">Witch Doctor</span></span>
+        </span>
+        <span><span>Core defensive item</span></span>
+    </li>
+    <li>
+        <span>
+            <span>
+                <span class="d3planner-item item-legendary">
+                    <span class="d3planner-icon-wrap">
+                        <span class="d3planner-icon" style="background: rgba(0, 0, 0, 0) url('https://planner-assets.com/d3planner/css/items/phylactery.png?2e582289') no-repeat scroll 0px -1.2em;"></span>
+                    </span>
+                    <span>Leger's Disdain</span>
+                </span>
+            </span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-really-green-color">Keep</span></span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-death-breath-color">Necromancer</span></span>
+        </span>
+        <span><span>Many builds just need any offhand</span></span>
+    </li>
+    <li>
+        <span>
+            <span>
+                <span class="d3planner-item item-legendary">
+                    <span class="d3planner-icon-wrap"><span class="d3planner-icon" style="background: rgba(0, 0, 0, 0) url('https://planner-assets.com/d3planner/css/items/helm.png?51da40ec') no-repeat scroll 0px -22.8em;"></span></span>
+                    <span>Leoric's Crown</span>
+                </span>
+            </span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-really-green-color">Keep</span></span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-mid-gray-color">All</span></span>
+        </span>
+        <span>
+            <span>Support builds &amp; <a href="https://d3.maxroll.gg/resources/follower-mechanics" target="_blank" rel="noopener noreferrer">Followers</a></span>
+        </span>
+    </li>
+    <li>
+        <span>
+            <span>
+                <span class="d3planner-item item-set">
+                    <span class="d3planner-icon-wrap"><span class="d3planner-icon" style="background: rgba(0, 0, 0, 0) url('https://planner-assets.com/d3planner/css/items/sword.png?c7f648d6') no-repeat scroll 0px -26.4em;"></span></span>
+                    <span>Little Rogue</span>
+                </span>
+            </span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-really-green-color">Keep</span></span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-mid-orange-color">Barbarian</span> &amp; <span class="has-inline-color has-rare-item-color">Monk</span></span>
+        </span>
+        <span>
+            <span>
+                <a href="https://d3.maxroll.gg/guides/waste-set-ww-rend-barbarian-guide" target="_blank" rel="noopener noreferrer">Whirlwind</a> builds &amp;
+                <a href="https://d3.maxroll.gg/guides/support-zmonk-guide" target="_blank" rel="noopener noreferrer">support variations</a>
+            </span>
+        </span>
+    </li>
+    <li>
+        <span>
+            <span>
+                <span class="d3planner-item item-legendary">
+                    <span class="d3planner-icon-wrap"><span class="d3planner-icon" style="background: rgba(0, 0, 0, 0) url('https://planner-assets.com/d3planner/css/items/phylactery.png?2e582289') no-repeat scroll 0px 0em;"></span></span>
+                    <span>Lost Time</span>
+                </span>
+            </span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-really-green-color">Keep</span></span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-death-breath-color">Necromancer</span></span>
+        </span>
+        <span><span>Many builds just need any offhand</span></span>
+    </li>
+    <li>
+        <span>
+            <span>
+                <span class="d3planner-item item-legendary">
+                    <span class="d3planner-icon-wrap"><span class="d3planner-icon" style="background: rgba(0, 0, 0, 0) url('https://planner-assets.com/d3planner/css/items/crossbow.png?22c62af7') no-repeat scroll 0px -1.2em;"></span></span>
+                    <span>Manticore</span>
+                </span>
+            </span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-really-green-color">Keep</span></span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-light-red-color">Demon Hunter</span></span>
+        </span>
+        <span>
+            <span><a href="https://d3.maxroll.gg/guides/marauder-sentry-demon-hunter-guide" target="_blank" rel="noopener noreferrer">Cluster Arrow</a> builds</span>
+        </span>
+    </li>
+    <li>
+        <span>
+            <span>
+                <span class="d3planner-item item-legendary">
+                    <span class="d3planner-icon-wrap"><span class="d3planner-icon" style="background: rgba(0, 0, 0, 0) url('https://planner-assets.com/d3planner/css/items/shoulders.png?55b69231') no-repeat scroll 0px -2.4em;"></span></span>
+                    <span>Mantle of Channeling</span>
+                </span>
+            </span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-really-green-color">Keep</span></span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-mid-gray-color">Multiple</span></span>
+        </span>
+        <span><span>Channeling builds</span></span>
+    </li>
+    <li>
+        <span>
+            <span>
+                <span class="d3planner-item item-legendary">
+                    <span class="d3planner-icon-wrap"><span class="d3planner-icon" style="background: rgba(0, 0, 0, 0) url('https://planner-assets.com/d3planner/css/items/helm.png?51da40ec') no-repeat scroll 0px -20.4em;"></span></span>
+                    <span>Mempo of Twilight</span>
+                </span>
+            </span>
+        </span>
+        <span><span>Keep</span></span><span><span>Wizard</span></span>
+        <span>
+            <span><a href="https://d3.maxroll.gg/guides/lod-meteor-wizard-guide" target="_blank" rel="noopener noreferrer">Meteor</a> builds</span>
+        </span>
+    </li>
+    <li>
+        <span>
+            <span>
+                <span class="d3planner-item item-legendary">
+                    <span class="d3planner-icon-wrap"><span class="d3planner-icon" style="background: rgba(0, 0, 0, 0) url('https://planner-assets.com/d3planner/css/items/axe2h.png?638ff240') no-repeat scroll 0px -1.2em;"></span></span>
+                    <span>Messerschmidt's Reaver</span>
+                </span>
+            </span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-really-green-color">Keep</span></span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-mid-gray-color">Multiple</span></span>
+        </span>
+        <span><span>Cube option &amp; support builds</span></span>
+    </li>
+    <li>
+        <span>
+            <span>
+                <span class="d3planner-item item-legendary">
+                    <span class="d3planner-icon-wrap"><span class="d3planner-icon" style="background: rgba(0, 0, 0, 0) url('https://planner-assets.com/d3planner/css/items/bracers.png?fa97b9aa') no-repeat scroll 0px 0em;"></span></span>
+                    <span>Mortick's Brace</span>
+                </span>
+            </span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-really-green-color">Keep</span></span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-mid-orange-color">Barbarian</span></span>
+        </span>
+        <span><span>Core class item</span></span>
+    </li>
+    <li>
+        <span>
+            <span>
+                <span class="d3planner-item item-legendary">
+                    <span class="d3planner-icon-wrap"><span class="d3planner-icon" style="background: rgba(0, 0, 0, 0) url('https://planner-assets.com/d3planner/css/items/bracers.png?fa97b9aa') no-repeat scroll 0px -40.8em;"></span></span>
+                    <span>Nemesis Bracers</span>
+                </span>
+            </span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-really-green-color">Keep</span></span>
+        </span>
+        <span>
+            <span><span class="has-inline-color has-mid-gray-color">All</span></span>
+        </span>
+        <span>
+            <span>Speedfarming builds &amp; <a href="https://d3.maxroll.gg/resources/follower-mechanics" target="_blank" rel="noopener noreferrer">Followers</a></span>
+        </span>
+    </li>
+</ul>
