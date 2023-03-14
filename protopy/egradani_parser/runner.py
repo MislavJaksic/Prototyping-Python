@@ -7,11 +7,10 @@
     :copyrgiht: 2019 MislavJaksic
     :license: MIT License
 """
+import datetime
 import sys
-import cProfile
 
 from rapdevpy import lxml_lib
-import datetime
 
 """
 Getting data:

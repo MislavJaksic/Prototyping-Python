@@ -1,125 +1,218 @@
-<html style="" class="js flexbox canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths"><head>
-	<!--[if lt IE 7]>  <html class="ie ie6 lte9 lte8 lte7"> <![endif]-->
-	<!--[if IE 7]>     <html class="ie ie7 lte9 lte8 lte7"> <![endif]-->
-	<!--[if IE 8]>     <html class="ie ie8 lte9 lte8"> <![endif]-->
-	<!--[if IE 9]>     <html class="ie ie9 lte9"> <![endif]-->
-	<!--[if gt IE 9]>  <html> <![endif]-->
-	<!--[if !IE]>	   <html>             <![endif]-->
-	<title>e-Građani</title>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
-	<meta name="description" content="Osobni korisnički pretinac je osnovna e-usluga sustava e-Građani koja omogućuje primanje e-poruka tijela javne uprave. Vjerodajnica iz sustava NIAS nužna je za pristup pretincu. ">
-	<meta name="keywords" content="Osobni korisnički pretinac, e-Građani, e-usluge, e-poruke, NIAS, Republika Hrvatska, državna tijela, državna uprava, e-identitet, mToken, e-Pass, AAI@EDU, HZZOCARD, HZZO pametna kartica ">
+<html class="js flexbox canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths"
+      style="">
+<head>
+    <!--[if lt IE 7]>
+    <html class="ie ie6 lte9 lte8 lte7"> <![endif]-->
+    <!--[if IE 7]>
+    <html class="ie ie7 lte9 lte8 lte7"> <![endif]-->
+    <!--[if IE 8]>
+    <html class="ie ie8 lte9 lte8"> <![endif]-->
+    <!--[if IE 9]>
+    <html class="ie ie9 lte9"> <![endif]-->
+    <!--[if gt IE 9]>
+    <html> <![endif]-->
+    <!--[if !IE]>
+    <html>             <![endif]-->
+    <title>e-Građani</title>
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"
+          name="viewport">
+    <meta content="Osobni korisnički pretinac je osnovna e-usluga sustava e-Građani koja omogućuje primanje e-poruka tijela javne uprave. Vjerodajnica iz sustava NIAS nužna je za pristup pretincu. "
+          name="description">
+    <meta content="Osobni korisnički pretinac, e-Građani, e-usluge, e-poruke, NIAS, Republika Hrvatska, državna tijela, državna uprava, e-identitet, mToken, e-Pass, AAI@EDU, HZZOCARD, HZZO pametna kartica "
+          name="keywords">
 
-	    <meta name="robots" content="index,follow">
-	    <meta name="google-site-verification" content="KDQCi3fMsaa5mVbxEXbtzzUSOhWzRF0yy8so39XK27k">
+    <meta content="index,follow" name="robots">
+    <meta content="KDQCi3fMsaa5mVbxEXbtzzUSOhWzRF0yy8so39XK27k" name="google-site-verification">
 
 
-	<link rel="shortcut icon" type="image/x-icon" href="/KorisnickiPretinac/favicons/favicon.ico">
-	<link rel="stylesheet" href="/KorisnickiPretinac/css/eg-normalize.css">
-	<link rel="stylesheet" href="/KorisnickiPretinac/css/jquery-ui-1.10.4.custom.min.css">
-	<link rel="stylesheet" href="/KorisnickiPretinac/css/eg-main.css">
-	<link rel="stylesheet" href="/KorisnickiPretinac/fonts/fonts.css">
-	<link rel="stylesheet" href="/KorisnickiPretinac/css/eg-default.css">
-	<link rel="stylesheet" href="/KorisnickiPretinac/css/eg-stil_egradani.css">
-	<script async="" src="//www.google-analytics.com/analytics.js"></script><script src="/KorisnickiPretinac/js/eg-modernizr-2.6.2-respond-1.1.0.min.js"></script>
-	<style type="text/css"></style><style type="text/css">.fancybox-margin{margin-right:0px;}</style></head>
+    <link href="/KorisnickiPretinac/favicons/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link href="/KorisnickiPretinac/css/eg-normalize.css" rel="stylesheet">
+    <link href="/KorisnickiPretinac/css/jquery-ui-1.10.4.custom.min.css" rel="stylesheet">
+    <link href="/KorisnickiPretinac/css/eg-main.css" rel="stylesheet">
+    <link href="/KorisnickiPretinac/fonts/fonts.css" rel="stylesheet">
+    <link href="/KorisnickiPretinac/css/eg-default.css" rel="stylesheet">
+    <link href="/KorisnickiPretinac/css/eg-stil_egradani.css" rel="stylesheet">
+    <script async="" src="//www.google-analytics.com/analytics.js"></script>
+    <script src="/KorisnickiPretinac/js/eg-modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    <style type="text/css"></style>
+    <style type="text/css">.fancybox-margin{margin-right:0px;}</style>
+</head>
 
-	<body>
-	  	<div class="trakica">
-	     	<a href="http://www.gov.hr" class="logoGov"><img src="/KorisnickiPretinac/img/govhr_logo_white.png" alt="Gov.hr naslovnica"></a>
-	     	<a href="/KorisnickiPretinac/eGradani.html" class="logoEgradani"><img src="/KorisnickiPretinac/img/egradani_logo_white.png" alt="e-Građani naslovnica"></a>
-	   </div>
-	  	<header>
-	    	<div class="center">
-	      	<div class="eg-info-line">
-	         	<a class="left-logo" href="/KorisnickiPretinac/auth.html">OSOBNI KORISNIČKI PRETINAC</a>
-	         	<div class="eg-north-center-menu">
-	            	<ul class="nav-menu-ul"><li><a themeid="49" href="https://eobnova.gov.hr/eobnova/" target="_blank" title="Usluga omogućava vlasnicima i suvlasnicima potresom oštećenih kuća i zgrada podnošenje zahtjeva za obnovu ili novčanu pomoć elektroničkim putem bez potrebe za prikupljanjem dokumenata i podloga u papirnatom obliku ili fizičkim odlascima u nadležne urede.">eObnova</a></li><li class="menu-pipe">|</li><li><a themeid="39" href="https://matice.gov.hr/EDokumentiZahtjev/" target="_blank" title="Ovom uslugom možete pribaviti Domovnicu, Rodni i Vjenčani list, Potvrdu o životnom partnerstvu i Izvadak iz Matice Rođenih.">e-Matične knjige</a></li><li class="menu-pipe">|</li><li><a themeid="44" href="https://e-porezna.porezna-uprava.hr" target="_blank" title="ePorezna je elektronička usluga Ministarstva financija - Porezne uprave koja svim građanima omogućuje elektroničku komunikaciju s Poreznom upravom.">ePorezna</a></li></ul>
-	           		<div class="right-login">
-	             		<a id="prijavaLink" href="/KorisnickiPretinac/auth.html"><span class="h2">Prijavite se</span></a>
-	           		</div>
-	        		</div>
-	    		</div>
-	 		</div>
-	  	</header>
-		<div class="okp-news-wrapper">
-			<div id="okp-news" class="news_container okp-news">
-				<div class="news news1">
-		        	<span class="news_img" style="display: block;"><img title="e-Građani" alt="e-Građani" src="https://egradjani.gov.hr/UserDocsImages/novosti/objava-e-gradjani.jpg?width=366&amp;height=244"></span>
-		        	<span class="news_txt">
+<body>
+<div class="trakica">
+    <a class="logoGov" href="http://www.gov.hr"><img alt="Gov.hr naslovnica"
+                                                     src="/KorisnickiPretinac/img/govhr_logo_white.png"></a>
+    <a class="logoEgradani" href="/KorisnickiPretinac/eGradani.html"><img
+            alt="e-Građani naslovnica" src="/KorisnickiPretinac/img/egradani_logo_white.png"></a>
+</div>
+<header>
+    <div class="center">
+        <div class="eg-info-line">
+            <a class="left-logo" href="/KorisnickiPretinac/auth.html">OSOBNI KORISNIČKI PRETINAC</a>
+            <div class="eg-north-center-menu">
+                <ul class="nav-menu-ul">
+                    <li><a href="https://eobnova.gov.hr/eobnova/" target="_blank" themeid="49"
+                           title="Usluga omogućava vlasnicima i suvlasnicima potresom oštećenih kuća i zgrada podnošenje zahtjeva za obnovu ili novčanu pomoć elektroničkim putem bez potrebe za prikupljanjem dokumenata i podloga u papirnatom obliku ili fizičkim odlascima u nadležne urede.">eObnova</a>
+                    </li>
+                    <li class="menu-pipe">|</li>
+                    <li><a href="https://matice.gov.hr/EDokumentiZahtjev/" target="_blank" themeid="39"
+                           title="Ovom uslugom možete pribaviti Domovnicu, Rodni i Vjenčani list, Potvrdu o životnom partnerstvu i Izvadak iz Matice Rođenih.">e-Matične
+                        knjige</a></li>
+                    <li class="menu-pipe">|</li>
+                    <li><a href="https://e-porezna.porezna-uprava.hr" target="_blank" themeid="44"
+                           title="ePorezna je elektronička usluga Ministarstva financija - Porezne uprave koja svim građanima omogućuje elektroničku komunikaciju s Poreznom upravom.">ePorezna</a>
+                    </li>
+                </ul>
+                <div class="right-login">
+                    <a href="/KorisnickiPretinac/auth.html" id="prijavaLink"><span class="h2">Prijavite se</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="okp-news-wrapper">
+    <div class="news_container okp-news" id="okp-news">
+        <div class="news news1">
+            <span class="news_img" style="display: block;"><img alt="e-Građani" src="https://egradjani.gov.hr/UserDocsImages/novosti/objava-e-gradjani.jpg?width=366&amp;height=244"
+                                                                title="e-Građani"></span>
+            <span class="news_txt">
 		        		<span class="h2 info-title">Što je sustav e-Građani i kako koristiti usluge?</span>
-		         	<span class="info-tags"><p>Sustav e-Građani uspostavljen je s ciljem modernizacije, pojednostavljenja i ubrzanja komunikacije građana i javnog sektora te povećanja transparentnosti pružanja javnih usluga.<br><br>Uslugama u sustavu e-Građani i Osobnom korisničkom pretincu možete pristupiti ako posjedujete vjerodajnicu koja se nalazi na <a class="outlink" href="https://gov.hr/e-gradjani/lista-prihvacenih-vjerodajnica/1667" target="_blank">Listi prihvaćenih vjerodajnica</a>.<br><a class="news-txt-link-icon" href="https://gov.hr/e-gradjani/kako-postati-e-gradjanin/1553" target="_blank">Saznajte kako koristiti usluge u sustavu e-Građani!</a></p></span>
+		         	<span class="info-tags"><p>Sustav e-Građani uspostavljen je s ciljem modernizacije, pojednostavljenja i ubrzanja komunikacije građana i javnog sektora te povećanja transparentnosti pružanja javnih usluga.<br><br>Uslugama u sustavu e-Građani i Osobnom korisničkom pretincu možete pristupiti ako posjedujete vjerodajnicu koja se nalazi na <a
+                            class="outlink" href="https://gov.hr/e-gradjani/lista-prihvacenih-vjerodajnica/1667"
+                            target="_blank">Listi prihvaćenih vjerodajnica</a>.<br><a class="news-txt-link-icon"
+                                                                                      href="https://gov.hr/e-gradjani/kako-postati-e-gradjanin/1553"
+                                                                                      target="_blank">Saznajte kako koristiti usluge u sustavu e-Građani!</a></p></span>
 		          	<span class="info-get-more" style="display: inline;">Prikaži sve</span>
-		          	<span class="info-all"><a class="news-txt-link-icon" href="https://gov.hr/e-gradjani/o-sustavu-e-gradjani/1584" target="_blank">Detaljnije o sustavu e-Građani i informacije za korisničku podršku</a><br><a class="news-txt-link-icon" href="http://data.gov.hr/dataset/e-gradjani-statistika" target="_blank">Posljednje statistike o sustavu e-Građani</a><br><a class="news-txt-link-icon" href="https://gov.hr/e-gradjani/izjava-o-pristupacnosti-pretinac-gov-hr-i-osobnog-korisnickog-pretinca/3154" target="_blank">Izjava o pristupačnosti</a></span>
+		          	<span class="info-all"><a class="news-txt-link-icon"
+                                              href="https://gov.hr/e-gradjani/o-sustavu-e-gradjani/1584"
+                                              target="_blank">Detaljnije o sustavu e-Građani i informacije za korisničku podršku</a><br><a
+                            class="news-txt-link-icon" href="http://data.gov.hr/dataset/e-gradjani-statistika"
+                            target="_blank">Posljednje statistike o sustavu e-Građani</a><br><a
+                            class="news-txt-link-icon"
+                            href="https://gov.hr/e-gradjani/izjava-o-pristupacnosti-pretinac-gov-hr-i-osobnog-korisnickog-pretinca/3154"
+                            target="_blank">Izjava o pristupačnosti</a></span>
 		          	<span class="info-hide-more">Sakrij</span>
 		       	</span>
-		    	</div>
-				<div class="news news2">
-		        	<span class="news_img" style="display: block;"><a href="https://pretinac.gov.hr/KorisnickiPretinac/auth.html" target="_blank"><img title="Osobni korisnički pretinac" alt="Osobni korisnički pretinac" src="https://egradjani.gov.hr/UserDocsImages/novosti/osobni-korisnicki-pretinac.jpg?width=366&amp;height=244"></a></span>
-		        	<span class="news_txt">
+        </div>
+        <div class="news news2">
+            <span class="news_img" style="display: block;"><a
+                    href="https://pretinac.gov.hr/KorisnickiPretinac/auth.html" target="_blank"><img
+                    alt="Osobni korisnički pretinac" src="https://egradjani.gov.hr/UserDocsImages/novosti/osobni-korisnicki-pretinac.jpg?width=366&amp;height=244"
+                    title="Osobni korisnički pretinac"></a></span>
+            <span class="news_txt">
 			        	<span class="h2 info-title">Što je Osobni korisnički pretinac?</span>
-			         <span class="info-tags"><p>Putem Vašeg Osobnog korisničkog pretinca, ukoliko imate važeći OIB, možete na siguran način korištenjem odgovarajuće vjerodajnice pregledati i upravljati porukama koje su Vam upućene iz javne uprave te ujedno i pristupiti željenim e-uslugama.<br><br><a class="read_more_link" href="/KorisnickiPretinac/auth.html">Kreirajte Osobni korisnički pretinac &gt;</a><br><strong>Preuzmite mPretinac za svoj mobilni uređaj</strong><br>Osobni korisnički pretinac možete koristiti i putem mobilne aplikacije mPretinac.<br><br><a href="https://play.google.com/store/apps/details?id=hr.apisit.u03.kp" target="_blank" class="store-holder"><img alt="mPretinac - Google Play" class="android" data-fileid="66" src="https://egradjani.gov.hr/UserDocsImages/icons/en_app_rgb_wo_60.png" style="height:45px; width:129px"></a><a href="https://itunes.apple.com/hr/app/mpretinac/id936651075?mt=8" target="_blank" class="store-holder"><img alt="mPretinac - App Store" class="iPhone" data-fileid="65" src="https://egradjani.gov.hr/UserDocsImages/icons/Download_on_the_App_Store_Badge_US-UK_154x46.png" style="height:40px; width:135px"></a><a href="http://www.windowsphone.com/hr-hr/store/app/mpretinac/53e91b4a-9719-409c-b798-8059cf958894" target="_blank" class="store-holder"><img alt="mPretinac - Windows Phone" class="winPhone" data-fileid="67" src="https://egradjani.gov.hr/UserDocsImages/icons/WindowsPhone_icon_badge_blk.png" style="width: 40px; height: 40px;"></a></p></span>
+			         <span class="info-tags"><p>Putem Vašeg Osobnog korisničkog pretinca, ukoliko imate važeći OIB, možete na siguran način korištenjem odgovarajuće vjerodajnice pregledati i upravljati porukama koje su Vam upućene iz javne uprave te ujedno i pristupiti željenim e-uslugama.<br><br><a
+                             class="read_more_link" href="/KorisnickiPretinac/auth.html">Kreirajte Osobni korisnički pretinac &gt;</a><br><strong>Preuzmite mPretinac za svoj mobilni uređaj</strong><br>Osobni korisnički pretinac možete koristiti i putem mobilne aplikacije mPretinac.<br><br><a
+                             class="store-holder" href="https://play.google.com/store/apps/details?id=hr.apisit.u03.kp"
+                             target="_blank"><img alt="mPretinac - Google Play" class="android" data-fileid="66"
+                                                       src="https://egradjani.gov.hr/UserDocsImages/icons/en_app_rgb_wo_60.png"
+                                                       style="height:45px; width:129px"></a><a
+                             class="store-holder" href="https://itunes.apple.com/hr/app/mpretinac/id936651075?mt=8"
+                             target="_blank"><img alt="mPretinac - App Store" class="iPhone" data-fileid="65"
+                                                       src="https://egradjani.gov.hr/UserDocsImages/icons/Download_on_the_App_Store_Badge_US-UK_154x46.png"
+                                                       style="height:40px; width:135px"></a><a
+                             class="store-holder"
+                             href="http://www.windowsphone.com/hr-hr/store/app/mpretinac/53e91b4a-9719-409c-b798-8059cf958894" target="_blank"><img alt="mPretinac - Windows Phone" class="winPhone"
+                                                                       data-fileid="67"
+                                                                       src="https://egradjani.gov.hr/UserDocsImages/icons/WindowsPhone_icon_badge_blk.png"
+                                                                       style="width: 40px; height: 40px;"></a></p></span>
 			       	<span class="info-get-more" style="display: inline;">Prikaži sve</span>
 			         <span class="info-all"><p><strong>Kako otvoriti Osobni korisnički pretinac?</strong><br>Ukoliko se prijavljujete prvi put, prihvaćanjem uvjeta korištenja i odabirom gumba 'Kreiraj Osobni korisnički pretinac' kreira se Vaš 'Osobni korisnički pretinac'.<br><br>Nakon uspješnog kreiranja Vašeg Osobnog korisničkog pretinca, svaki sljedeći put prijavljujete se putem gumba 'Prijavite se', pri čemu Vas sustav preusmjerava na NIAS (Nacionalni identifikacijski i autentifikacijski sustav) gdje vam se nudi lista vjerodajnica kojom je moguće izvršiti prijavu u 'Osobni korisnički pretinac'.</p></span>
 			       	<span class="info-hide-more">Sakrij</span>
 		        	</span>
-		  		</div>
-		      <div class="news news3" style="background-color: rgb(237, 237, 237); box-shadow: rgb(204, 204, 204) 0px 0px 6px;">
+        </div>
+        <div class="news news3"
+             style="background-color: rgb(237, 237, 237); box-shadow: rgb(204, 204, 204) 0px 0px 6px;">
 
 		        	<span class="news_txt" style="margin: 0px 20px 20px; padding-top: 20px;">
 		        		<span class="h2 info-title">Novosti u sustavu e-Građani</span>
-			         <span class="info-tags"><!--<strong>Nove e-usluge</strong><br>-->&nbsp;<p><a class="news-txt-link-icon" href="https://eobnova.gov.hr/eobnova/"> eObnova</a></p>-  usluga omogućava vlasnicima i suvlasnicima potresom oštećenih kuća i zgrada podnošenje zahtjeva za obnovu ili novčanu pomoć elektroničkim putem bez potrebe za prikupljanjem dokumenata i podloga u papirnatom obliku ili fizičkim odlascima u nadležne urede. (4.3.2021.)<p>&nbsp;</p><p><a class="news-txt-link-icon" href="https://edokumenti.tehnicki.hr/auth/sendRequest">Dostava elektroničkih isprava za registraciju vozila u Republici Hrvatskoj</a></p>- usluga omogućuje dostavu elektroničkih isprava u postupcima registracije, ispitivanja i provjere sukladnosti (homologacije) vozila. (18.2.2021.)<p>&nbsp;</p><p><a>Kartično plaćanje unutar usluga e-Zahtjev za vozačku dozvolu i e-Zahtjev za putovnicu</a></p><p><a> - usluge su uključene na novi Sustav e-Pristojbe (SeP) te je građanima omogućen odabir kartičnog plaćanja zbirnog iznosa za propisanu upravnu pristojbu i naknadu za izradu isprave, kao i troška dostave ovih isprava ukoliko se odluče na dostavu na kućnu adresu. (1.2.2021.) </a></p><p><a>&nbsp;</a></p><p><strong>Nove vjerodajnice</strong></p><strong>- IKB&nbsp;</strong>token/mToken&nbsp;<strong>-&nbsp;</strong>korisnici Internet i mobilnog bankarstva Istarske kreditne banke Umag mogu se prijaviti u sustav e-Građani putem vjerodajnice sigurnosne razine 3. (22.04.2020.)<br><strong>- ADDIKO&nbsp;</strong>token/mToken&nbsp;<strong>-&nbsp;</strong>korisnici Internet i mobilnog bankarstva Addiko banke mogu se prijaviti u sustav e-Građani putem vjerodajnice sigurnosne razine 3. (12.08.2019.)<br>&nbsp;</span>
+			         <span class="info-tags"><!--<strong>Nove e-usluge</strong><br>-->&nbsp;<p><a
+                             class="news-txt-link-icon" href="https://eobnova.gov.hr/eobnova/"> eObnova</a></p>-  usluga omogućava vlasnicima i suvlasnicima potresom oštećenih kuća i zgrada podnošenje zahtjeva za obnovu ili novčanu pomoć elektroničkim putem bez potrebe za prikupljanjem dokumenata i podloga u papirnatom obliku ili fizičkim odlascima u nadležne urede. (4.3.2021.)<p>&nbsp;</p><p><a
+                             class="news-txt-link-icon" href="https://edokumenti.tehnicki.hr/auth/sendRequest">Dostava elektroničkih isprava za registraciju vozila u Republici Hrvatskoj</a></p>- usluga omogućuje dostavu elektroničkih isprava u postupcima registracije, ispitivanja i provjere sukladnosti (homologacije) vozila. (18.2.2021.)<p>&nbsp;</p><p><a>Kartično plaćanje unutar usluga e-Zahtjev za vozačku dozvolu i e-Zahtjev za putovnicu</a></p><p><a> - usluge su uključene na novi Sustav e-Pristojbe (SeP) te je građanima omogućen odabir kartičnog plaćanja zbirnog iznosa za propisanu upravnu pristojbu i naknadu za izradu isprave, kao i troška dostave ovih isprava ukoliko se odluče na dostavu na kućnu adresu. (1.2.2021.) </a></p><p><a>&nbsp;</a></p><p><strong>Nove vjerodajnice</strong></p><strong>- IKB&nbsp;</strong>token/mToken&nbsp;<strong>-&nbsp;</strong>korisnici Internet i mobilnog bankarstva Istarske kreditne banke Umag mogu se prijaviti u sustav e-Građani putem vjerodajnice sigurnosne razine 3. (22.04.2020.)<br><strong>- ADDIKO&nbsp;</strong>token/mToken&nbsp;<strong>-&nbsp;</strong>korisnici Internet i mobilnog bankarstva Addiko banke mogu se prijaviti u sustav e-Građani putem vjerodajnice sigurnosne razine 3. (12.08.2019.)<br>&nbsp;</span>
 			       	<span class="info-get-more" style="display: inline;">Prikaži sve</span>
-			       	<span class="info-all"><p>- <strong>kID Certifikat</strong>&nbsp;- korisnici koji posjeduju kID Certifikat mogu se prijaviti u sustav e-Građani; riječ je o vjerodajnici sigurnosne razine 4 (visoka). (15.5.2018.)<br></p><p>- <strong>HT Telekom ID&nbsp;</strong>- korisnici koji posjeduju HT Telekom ID mogu se prijaviti u sustav e-Građani;&nbsp;riječ je o vjerodajnici sigurnosne razine 2. (10.4.2017.)</p><p>-&nbsp;<strong>OTP Banka&nbsp;token/mobilni token&nbsp;</strong>- korisnici internet bankarstva OTP banke mogu se prijaviti u sustav e-Građani;&nbsp;riječ je o certifikatu sigurnosne razine 3. (22.11.2016.)</p><p><a class="news-txt-link-icon" href="https://vlada.gov.hr/vijesti/projekt-e-gradjani-proglasen-najboljim-projektom-u-europi-na-podrucju-otvorena-vlast-za-unapredjenje-javnih-usluga/18015">e-Građani najbolji projekt unapređenja javnih usluga u Europi 2015.</a></p>- na Globalnom summitu inicijative Partnerstvo za otvorenu vlast, održanom 28. listopada 2015. u Mexico Cityju na temu „Otvorena vlast za unapređenje javnih usluga“, projekt hrvatske Vlade e-Građani osvojio je prvo mjesto u Europi.<p>&nbsp;</p><p><strong>Izdavanje vjerodajnica ePASS i mToken putem punomoći</strong></p>Ukoliko želite dobiti ePASS ili mToken, a niste u mogućnosti osobno doći na registracijsko mjesto, umjesto Vas, to može učiniti opunomoćenik temeljem valjane pisane punomoći. Više informacija saznajte na korisničkim stranicama vjerodajnica:&nbsp;<a class="news-txt-link-icon" href="https://epass.gov.hr">ePass</a> <a class="news-txt-link-icon" href="https://mtoken.gov.hr">mToken</a><p>&nbsp;</p><a class="news-txt-link-icon" href="#" id="goToEusluge">Popis e-usluga</a></span>
+			       	<span class="info-all"><p>- <strong>kID Certifikat</strong>&nbsp;- korisnici koji posjeduju kID Certifikat mogu se prijaviti u sustav e-Građani; riječ je o vjerodajnici sigurnosne razine 4 (visoka). (15.5.2018.)<br></p><p>- <strong>HT Telekom ID&nbsp;</strong>- korisnici koji posjeduju HT Telekom ID mogu se prijaviti u sustav e-Građani;&nbsp;riječ je o vjerodajnici sigurnosne razine 2. (10.4.2017.)</p><p>-&nbsp;<strong>OTP Banka&nbsp;token/mobilni token&nbsp;</strong>- korisnici internet bankarstva OTP banke mogu se prijaviti u sustav e-Građani;&nbsp;riječ je o certifikatu sigurnosne razine 3. (22.11.2016.)</p><p><a
+                            class="news-txt-link-icon"
+                            href="https://vlada.gov.hr/vijesti/projekt-e-gradjani-proglasen-najboljim-projektom-u-europi-na-podrucju-otvorena-vlast-za-unapredjenje-javnih-usluga/18015">e-Građani najbolji projekt unapređenja javnih usluga u Europi 2015.</a></p>- na Globalnom summitu inicijative Partnerstvo za otvorenu vlast, održanom 28. listopada 2015. u Mexico Cityju na temu „Otvorena vlast za unapređenje javnih usluga“, projekt hrvatske Vlade e-Građani osvojio je prvo mjesto u Europi.<p>&nbsp;</p><p><strong>Izdavanje vjerodajnica ePASS i mToken putem punomoći</strong></p>Ukoliko želite dobiti ePASS ili mToken, a niste u mogućnosti osobno doći na registracijsko mjesto, umjesto Vas, to može učiniti opunomoćenik temeljem valjane pisane punomoći. Više informacija saznajte na korisničkim stranicama vjerodajnica:&nbsp;<a
+                            class="news-txt-link-icon" href="https://epass.gov.hr">ePass</a> <a
+                            class="news-txt-link-icon" href="https://mtoken.gov.hr">mToken</a><p>&nbsp;</p><a
+                            class="news-txt-link-icon" href="#" id="goToEusluge">Popis e-usluga</a></span>
 						<span class="info-hide-more">Sakrij</span>
 		        </span>
-		   	</div>
-		      <div class="clear"></div>
-			</div>
-	  	</div>
-		<div class="center">
-			<div class="content">
-		      <div class="search-wrapper">
-		        	<div class="e-usluge-search">
-		          	<label for="eUslugeSearchInput">Brza poveznica na sve e-usluge:</label>
-		          	<span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span><input id="eUslugeSearchInput" class="ui-autocomplete-input" autocomplete="off">
-		        	</div>
-		        	<div class="e-usluge-other-link" title="Pogledajte ostale e-usluge izvan sustava e-Građani">Ostale e-usluge izvan sustava e-Građani</div>
-		      </div>
-		      <div class="eusluge-nias-holder">
-		      <h1 id="eusluge-nias" class="eup_title">Dostupne e-usluge u sustavu <span style="color:#D71920;">e-Građani</span><span class="e-usluge-updown">&nbsp;</span></h1>
-		      <div class="sort-link" id="eusluge-nias_alpha-sort" title="Sortiraj abecedno">Abecedno</div>
-			   	<div class="sort-link" id="eusluge-nias_provider-sort" title="Sortiraj po instituciji">Institucije</div>
-			      <div class="sort-link sort-active" id="eusluge-nias_theme-sort" title="Sortiraj po temi">Teme</div>
-		      </div>
-		      <div class="alpha-sort-holder" id="eusluge-nias_alphaSort"></div>
-		      <div class="eusluge-nias" style="display: block;"><div class="themes-0 cbox" style="height: 313px;"><h3 id="eusluge-nias_themes-0" class="cbox-title">Pravna država i sigurnost&nbsp;<span>(12)</span></h3><span class="counter"></span><ul class="themes-0"><li style="display: list-item;"><a target="blank" href="https://epropusnice.gov.hr" title="Pružatelj: Središnji državni ured za razvoj digitalnog društva
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+<div class="center">
+    <div class="content">
+        <div class="search-wrapper">
+            <div class="e-usluge-search">
+                <label for="eUslugeSearchInput">Brza poveznica na sve e-usluge:</label>
+                <span aria-live="polite" class="ui-helper-hidden-accessible" role="status"></span><input
+                    autocomplete="off" class="ui-autocomplete-input" id="eUslugeSearchInput">
+            </div>
+            <div class="e-usluge-other-link" title="Pogledajte ostale e-usluge izvan sustava e-Građani">Ostale e-usluge
+                izvan sustava e-Građani
+            </div>
+        </div>
+        <div class="eusluge-nias-holder">
+            <h1 class="eup_title" id="eusluge-nias">Dostupne e-usluge u sustavu <span
+                    style="color:#D71920;">e-Građani</span><span class="e-usluge-updown">&nbsp;</span></h1>
+            <div class="sort-link" id="eusluge-nias_alpha-sort" title="Sortiraj abecedno">Abecedno</div>
+            <div class="sort-link" id="eusluge-nias_provider-sort" title="Sortiraj po instituciji">Institucije</div>
+            <div class="sort-link sort-active" id="eusluge-nias_theme-sort" title="Sortiraj po temi">Teme</div>
+        </div>
+        <div class="alpha-sort-holder" id="eusluge-nias_alphaSort"></div>
+        <div class="eusluge-nias" style="display: block;">
+            <div class="themes-0 cbox" style="height: 313px;"><h3 class="cbox-title" id="eusluge-nias_themes-0">Pravna
+                država i sigurnost&nbsp;<span>(12)</span></h3><span class="counter"></span>
+                <ul class="themes-0">
+                    <li style="display: list-item;"><a href="https://epropusnice.gov.hr" target="blank" title="Pružatelj: Središnji državni ured za razvoj digitalnog društva
 Usluga aktivna od: 02.04.2020.
 Razina autentifikacije: 2 - niska sigurnost
-Opis: Usluga omogućava izdavanje propusnica temeljem čl. II. i čl. III. Odluke o zabrani napuštanja županije prema mjestu prebivališta ili boravišta u Republici Hrvatskoj od 18.12.2020.">e-Propusnice</a></li><li style="display: list-item;"><a target="blank" href="https://usluge.pravosudje.hr/uvjerenje-kazneni-postupak/zahtjev.xhtml" title="Pružatelj: Ministarstvo pravosuđa i uprave
+Opis: Usluga omogućava izdavanje propusnica temeljem čl. II. i čl. III. Odluke o zabrani napuštanja županije prema mjestu prebivališta ili boravišta u Republici Hrvatskoj od 18.12.2020.">e-Propusnice</a>
+                    </li>
+                    <li style="display: list-item;"><a href="https://usluge.pravosudje.hr/uvjerenje-kazneni-postupak/zahtjev.xhtml"
+                                                       target="blank"
+                                                       title="Pružatelj: Ministarstvo pravosuđa i uprave
 Usluga aktivna od: 19.06.2017.
 Razina autentifikacije: 2 - niska sigurnost
-Opis: Usluga omogućava predaju zahtjeva da se ne vodi kazneni postupak, provjeru statusa predanih zahtjeva. Omogućena je i  provjera vjerodostojnosti zahtjeva, do koje se može pristupiti i neovisno od usluge.">Uvjerenje da se ne vodi kazneni postupak</a></li><li style="display: list-item;"><a target="blank" href="https://pretinac.gov.hr" title="Pružatelj: Ministarstvo pravosuđa i uprave
+Opis: Usluga omogućava predaju zahtjeva da se ne vodi kazneni postupak, provjeru statusa predanih zahtjeva. Omogućena je i  provjera vjerodostojnosti zahtjeva, do koje se može pristupiti i neovisno od usluge.">Uvjerenje
+                        da se ne vodi kazneni postupak</a></li>
+                    <li style="display: list-item;"><a href="https://pretinac.gov.hr" target="blank" title="Pružatelj: Ministarstvo pravosuđa i uprave
 Usluga aktivna od: 08.04.2014.
 Razina autentifikacije: 2 - niska sigurnost
-Opis: Putem Vašeg Osobnog korisničkog pretinca, ukoliko imate važeći OIB, možete na siguran način korištenjem odgovarajuće vjerodajnice pregledati i upravljati porukama koje su upućene Vama od strane tijela državne uprave, pregledavati i odabirati e-usluge koje su dostupne od strane tijela državne uprave.">Osobni korisnički pretinac</a></li><li style="display: list-item;"><a target="blank" href="https://mojid.gov.hr/Home/SendSAMLRequest" title="Pružatelj: Financijska agencija - FINA
+Opis: Putem Vašeg Osobnog korisničkog pretinca, ukoliko imate važeći OIB, možete na siguran način korištenjem odgovarajuće vjerodajnice pregledati i upravljati porukama koje su upućene Vama od strane tijela državne uprave, pregledavati i odabirati e-usluge koje su dostupne od strane tijela državne uprave.">Osobni
+                        korisnički pretinac</a></li>
+                    <li style="display: list-item;"><a href="https://mojid.gov.hr/Home/SendSAMLRequest" target="blank"
+                                                       title="Pružatelj: Financijska agencija - FINA
 Usluga aktivna od: 08.04.2014.
 Razina autentifikacije: 2 - niska sigurnost
-Opis: mojID je namijenjen krajnjem korisniku bilo koje e-usluge koja za pristup traži jedinstvenu autentifikaciju putem NIAS-a. Osnova mojID usluge je jedinstvena evidencija korisničkih računa otvorenih kod različitih izdavatelja vjerodajnica uključenih u NIAS.">mojID</a></li><li style="display: list-item;"><a target="blank" href="https://e-pisarnica.zagreb.hr/episarnica" title="Pružatelj: Grad Zagreb
+Opis: mojID je namijenjen krajnjem korisniku bilo koje e-usluge koja za pristup traži jedinstvenu autentifikaciju putem NIAS-a. Osnova mojID usluge je jedinstvena evidencija korisničkih računa otvorenih kod različitih izdavatelja vjerodajnica uključenih u NIAS.">mojID</a>
+                    </li>
+                    <li style="display: list-item;"><a href="https://e-pisarnica.zagreb.hr/episarnica" target="blank"
+                                                       title="Pružatelj: Grad Zagreb
 Usluga aktivna od: 01.05.2017.
 Razina autentifikacije: 3 - znatna sigurnost
-Opis: Usluga korisniku omogućava dohvat elektroničkih isprava izvatka procjene nekretnina koje su mu izdane unutar Grada Zagreba.">Izdavanje elektroničke isprave Grada Zagreba</a></li><li style="display: none;"><a target="blank" href="https://e-kaznena.pravosudje.hr" title="Pružatelj: Ministarstvo pravosuđa i uprave
+Opis: Usluga korisniku omogućava dohvat elektroničkih isprava izvatka procjene nekretnina koje su mu izdane unutar Grada Zagreba.">Izdavanje
+                        elektroničke isprave Grada Zagreba</a></li>
+                    <li style="display: none;"><a href="https://e-kaznena.pravosudje.hr" target="blank" title="Pružatelj: Ministarstvo pravosuđa i uprave
 Usluga aktivna od: 14.04.2017.
 Razina autentifikacije: 2 - niska sigurnost
-Opis: Usluga građanima omogućava predaju elektroničkog zahtjeva za uvjerenje iz kaznene evidencije te dostavu uvjerenja u Korisnički pretinac putem servisa e-Građani.">Uvjerenje iz kaznene evidencije</a></li><li style="display: none;"><a target="blank" href="https://eboraviste.mup.hr" title="Pružatelj: Ministarstvo unutarnjih poslova
+Opis: Usluga građanima omogućava predaju elektroničkog zahtjeva za uvjerenje iz kaznene evidencije te dostavu uvjerenja u Korisnički pretinac putem servisa e-Građani.">Uvjerenje
+                        iz kaznene evidencije</a></li>
+                    <li style="display: none;"><a href="https://eboraviste.mup.hr" target="blank" title="Pružatelj: Ministarstvo unutarnjih poslova
 Usluga aktivna od: 29.10.2015.
 Razina autentifikacije: 4 - visoka sigurnost
-Opis: Usluga omogućava prijavu boravišta hrvatskim državljanima, davanje  suglasnosti stanodavca za prijavu boravišta druge osobe na adresu stana/kuće koje je vlasnik/suvlasnik te generiranje i  ispis Obrasca suglasnosti stanodavca za prijavu boravišta, koji će stanodavac koji nema mogućnost digitalnog potpisivanja dokumenta,  vlastoručno potpisati">e-Prijava boravišta hrvatskih državljana</a></li><li style="display: none;"><a target="blank" href="https://biraci.gov.hr/ePrivremeniUpis/" title="Pružatelj: Ministarstvo pravosuđa i uprave
+Opis: Usluga omogućava prijavu boravišta hrvatskim državljanima, davanje  suglasnosti stanodavca za prijavu boravišta druge osobe na adresu stana/kuće koje je vlasnik/suvlasnik te generiranje i  ispis Obrasca suglasnosti stanodavca za prijavu boravišta, koji će stanodavac koji nema mogućnost digitalnog potpisivanja dokumenta,  vlastoručno potpisati">e-Prijava
+                        boravišta hrvatskih državljana</a></li>
+                    <li style="display: none;"><a href="https://biraci.gov.hr/ePrivremeniUpis/" target="blank" title="Pružatelj: Ministarstvo pravosuđa i uprave
 Usluga aktivna od: 26.11.2014.
 Razina autentifikacije: 2 - niska sigurnost
-Opis: Ovom uslugom možete elektronički zatražiti promjenu mjesta glasovanja u RH i inozemstvu te se elektronički registrirati za glasovanje (osobe bez osobne iskaznice RH). Usluga je dostupna prije izbora/referenduma, u razdoblju od stupanja na snagu Odluke o raspisivanju izbora/referenduma pa do najkasnije 10 dana prije dana određenog za izbore/referendum.">Registar birača - e-Privremeni upis</a></li><li style="display: none;"><a target="blank" href="https://esuglasnost.mup.hr" title="Pružatelj: Ministarstvo unutarnjih poslova
+Opis: Ovom uslugom možete elektronički zatražiti promjenu mjesta glasovanja u RH i inozemstvu te se elektronički registrirati za glasovanje (osobe bez osobne iskaznice RH). Usluga je dostupna prije izbora/referenduma, u razdoblju od stupanja na snagu Odluke o raspisivanju izbora/referenduma pa do najkasnije 10 dana prije dana određenog za izbore/referendum.">Registar
+                        birača - e-Privremeni upis</a></li>
+                    <li style="display: none;"><a href="https://esuglasnost.mup.hr" target="blank" title="Pružatelj: Ministarstvo unutarnjih poslova
 Usluga aktivna od: 31.10.2015.
 Razina autentifikacije: 4 - visoka sigurnost
 Opis: Usluga omogućava hrvatskim državljanima, koji posjeduju vjerodajnicu najviše sigurnosne razine 4, da elektronskim putem daju svoju suglasnost za:
@@ -128,297 +221,591 @@ Opis: Usluga omogućava hrvatskim državljanima, koji posjeduju vjerodajnicu naj
 - Prijavu prebivališta djeteta na adresu drugog roditelja (kada roditelji imaju prijavljeno prebivalište na različitim adresama).
 Usluga također omogućava davanje suglasnosti stanodavca za prijavu prebivališta punoljetne osobe na adresu stana/kuće koje je vlasnik/suvlasnik.
 Usluga će se naknadno nadograditi s mogućnošću davanja punomoći punoljetnoj osobi za preuzimanje izrađenog dokumenta (osobne iskaznice, putovnice, vozačke dozvole) e-Građanina s vjerodajnicom razine 4.
-Razmatra se mogućnost davanja punomoći i za neke druge postupke iz djelokruga MUP-a.">Suglasnosti i punomoći u postupcima iz djelokruga MUP-a</a></li><li style="display: none;"><a target="blank" href="https://biraci.gov.hr/RegistarBiraca/" title="Pružatelj: Ministarstvo pravosuđa i uprave
+Razmatra se mogućnost davanja punomoći i za neke druge postupke iz djelokruga MUP-a.">Suglasnosti i punomoći u
+                        postupcima iz djelokruga MUP-a</a></li>
+                    <li style="display: none;"><a href="https://biraci.gov.hr/RegistarBiraca/" target="blank" title="Pružatelj: Ministarstvo pravosuđa i uprave
 Usluga aktivna od: 15.04.2014.
 Razina autentifikacije: 2 - niska sigurnost
-Opis: Registar birača služi za provjeru svog upisa u registar birača Republike Hrvatske.">Registar birača</a></li><li style="display: none;"><a target="blank" href="https://eusluge.mup.hr" title="Pružatelj: Ministarstvo unutarnjih poslova
+Opis: Registar birača služi za provjeru svog upisa u registar birača Republike Hrvatske.">Registar birača</a></li>
+                    <li style="display: none;"><a href="https://eusluge.mup.hr" target="blank" title="Pružatelj: Ministarstvo unutarnjih poslova
 Usluga aktivna od: 15.01.2015.
 Razina autentifikacije: 2 - niska sigurnost
-Opis: e-Usluge MUP-a omogućavaju formiranje elektroničkih zapisa iz službenih evidencija Ministarstva unutarnjih poslova koji u postupcima pred državnim tijelima, tijelima lokalne samouprave te pravnim osobama s javnim ovlastima zamjenjuju najčešće tražena uvjerenja: uvjerenje o prebivalištu, uvjerenje o boravištu te uvjerenje o vlasništvu cestovnih vozila.">e-Usluge MUP-a</a></li><li style="display: none;"><a target="blank" href="https://eputovnica.mup.hr" title="Pružatelj: Ministarstvo unutarnjih poslova
+Opis: e-Usluge MUP-a omogućavaju formiranje elektroničkih zapisa iz službenih evidencija Ministarstva unutarnjih poslova koji u postupcima pred državnim tijelima, tijelima lokalne samouprave te pravnim osobama s javnim ovlastima zamjenjuju najčešće tražena uvjerenja: uvjerenje o prebivalištu, uvjerenje o boravištu te uvjerenje o vlasništvu cestovnih vozila.">e-Usluge
+                        MUP-a</a></li>
+                    <li style="display: none;"><a href="https://eputovnica.mup.hr" target="blank" title="Pružatelj: Ministarstvo unutarnjih poslova
 Usluga aktivna od: 01.01.2018.
 Razina autentifikacije: 4 - visoka sigurnost
-Opis: Usluga omogućava podnošenje zahtjeva za izdavanje ePutovnice.">e-Zahtjev za izdavanje ePutovnice</a></li></ul><div class="box_navigation_eusluge-nias_themes-0_0 pager-nav"><a class="first_link  no_more" href="">&lt;&lt;</a><a class="previous_link  no_more" href="">&lt;</a><span class="ellipse less" style="display: none;">...</span><a class="page_link  first active_page" href="" longdesc="0" style="display: block;">1</a><a class="page_link " href="" longdesc="1" style="display: block;">2</a><a class="page_link  last" href="" longdesc="2" style="display: block;">3</a><span class="ellipse more" style="display: none;">...</span><a class="next_link" href="">&gt;</a><a class="last_link" href="">&gt;&gt;</a></div></div><div class="themes-1 cbox" style="height: 313px;"><h3 id="eusluge-nias_themes-1" class="cbox-title">Obitelj i život&nbsp;<span>(10)</span></h3><span class="counter"></span><ul class="themes-1"><li style="display: list-item;"><a target="blank" href="https://matice.gov.hr/eNovorodjence/" title="Pružatelj: Ministarstvo pravosuđa i uprave
+Opis: Usluga omogućava podnošenje zahtjeva za izdavanje ePutovnice.">e-Zahtjev za izdavanje ePutovnice</a></li>
+                </ul>
+                <div class="box_navigation_eusluge-nias_themes-0_0 pager-nav"><a class="first_link  no_more" href="">&lt;&lt;</a><a
+                        class="previous_link  no_more" href="">&lt;</a><span class="ellipse less"
+                                                                             style="display: none;">...</span><a
+                        class="page_link  first active_page" href="" longdesc="0" style="display: block;">1</a><a
+                        class="page_link " href="" longdesc="1" style="display: block;">2</a><a class="page_link  last"
+                                                                                                href="" longdesc="2"
+                                                                                                style="display: block;">3</a><span
+                        class="ellipse more" style="display: none;">...</span><a class="next_link" href="">&gt;</a><a
+                        class="last_link" href="">&gt;&gt;</a></div>
+            </div>
+            <div class="themes-1 cbox" style="height: 313px;"><h3 class="cbox-title" id="eusluge-nias_themes-1">Obitelj
+                i život&nbsp;<span>(10)</span></h3><span class="counter"></span>
+                <ul class="themes-1">
+                    <li style="display: list-item;"><a href="https://matice.gov.hr/eNovorodjence/" target="blank"
+                                                       title="Pružatelj: Ministarstvo pravosuđa i uprave
 Usluga aktivna od: 31.01.2018.
 Razina autentifikacije: 4 - visoka sigurnost
-Opis: Usluga omogućava roditeljima da potpisnim certifikatom na e-osobnoj iskaznici odrede ime djetetu i prijave rođenje djeteta Državnim maticama, MUP-u i HZZO-u.">e-Novorođenče</a></li><li style="display: list-item;"><a target="blank" href="https://ssl.mirovinsko.hr/nias.aspx" title="Pružatelj: Hrvatski zavod za mirovinsko osiguranje
+Opis: Usluga omogućava roditeljima da potpisnim certifikatom na e-osobnoj iskaznici odrede ime djetetu i prijave rođenje djeteta Državnim maticama, MUP-u i HZZO-u.">e-Novorođenče</a>
+                    </li>
+                    <li style="display: list-item;"><a href="https://ssl.mirovinsko.hr/nias.aspx" target="blank" title="Pružatelj: Hrvatski zavod za mirovinsko osiguranje
 Usluga aktivna od: 31.12.2014.
 Razina autentifikacije: 2 - niska sigurnost
-Opis: Kalkulator omogućava građanima da putem ove aplikacije izračunaju uvjet dohodovnog cenzusa, pripadajuću svotu doplatka za djecu ovisno o utvrđenom cenzusu i dodatak za treće i četvrto dijete prema odredbama Zakona o doplatku za djecu">Kalkulator doplatka za djecu</a></li><li style="display: list-item;"><a target="blank" href="https://matice.gov.hr/EDokumentiZahtjev/" title="Pružatelj: Ministarstvo pravosuđa i uprave
+Opis: Kalkulator omogućava građanima da putem ove aplikacije izračunaju uvjet dohodovnog cenzusa, pripadajuću svotu doplatka za djecu ovisno o utvrđenom cenzusu i dodatak za treće i četvrto dijete prema odredbama Zakona o doplatku za djecu">Kalkulator
+                        doplatka za djecu</a></li>
+                    <li style="display: list-item;"><a href="https://matice.gov.hr/EDokumentiZahtjev/" target="blank"
+                                                       title="Pružatelj: Ministarstvo pravosuđa i uprave
 Usluga aktivna od: 08.04.2014.
 Razina autentifikacije: 2 - niska sigurnost
-Opis: Ovom uslugom možete pribaviti Domovnicu, Rodni i Vjenčani list, Potvrdu o životnom partnerstvu i Izvadak iz Matice Rođenih.">e-Matične knjige</a></li><li style="display: list-item;"><a target="blank" href="https://e-usluge.mirovinsko.hr/r/doplatak_za_djecu" title="Pružatelj: Hrvatski zavod za mirovinsko osiguranje
+Opis: Ovom uslugom možete pribaviti Domovnicu, Rodni i Vjenčani list, Potvrdu o životnom partnerstvu i Izvadak iz Matice Rođenih.">e-Matične
+                        knjige</a></li>
+                    <li style="display: list-item;"><a href="https://e-usluge.mirovinsko.hr/r/doplatak_za_djecu"
+                                                       target="blank" title="Pružatelj: Hrvatski zavod za mirovinsko osiguranje
 Usluga aktivna od: 03.07.2020.
 Razina autentifikacije: 3 - znatna sigurnost
-Opis: Uslugom se omogućuje podnošenje zahtjeva HZMO-u za priznanje prava na  doplatak za djecu.">eHzmo - doplatak za djecu</a></li><li style="display: list-item;"><a target="blank" href="https://e-usluge.mirovinsko.hr/r/nacionalna_naknada" title="Pružatelj: Hrvatski zavod za mirovinsko osiguranje
+Opis: Uslugom se omogućuje podnošenje zahtjeva HZMO-u za priznanje prava na  doplatak za djecu.">eHzmo - doplatak za
+                        djecu</a></li>
+                    <li style="display: list-item;"><a href="https://e-usluge.mirovinsko.hr/r/nacionalna_naknada"
+                                                       target="blank"
+                                                       title="Pružatelj: Hrvatski zavod za mirovinsko osiguranje
 Usluga aktivna od: 15.12.2020.
 Razina autentifikacije: 3 - znatna sigurnost
-Opis: Usluga omogućava podnošenje zahtjeva za priznanje prava na nacionalnu naknadu za starije osobe.">eHzmo-zahtjev za nacionalnu naknadu</a></li><li style="display: none;"><a target="blank" href="https://eobrasci.bjelovar.hr" title="Pružatelj: Grad Bjelovar
+Opis: Usluga omogućava podnošenje zahtjeva za priznanje prava na nacionalnu naknadu za starije osobe.">eHzmo-zahtjev za
+                        nacionalnu naknadu</a></li>
+                    <li style="display: none;"><a href="https://eobrasci.bjelovar.hr" target="blank" title="Pružatelj: Grad Bjelovar
 Usluga aktivna od: 24.12.2020.
 Razina autentifikacije: 2 - niska sigurnost
-Opis: Usluga omogućuje građanima Grada Bjelovara prijavu za dodjelu studentskih stipendija.">e-usluge Grada Bjelovara</a></li><li style="display: none;"><a target="blank" href="https://e-djecjakartica.hr/eusluga/" title="Pružatelj: Središnji državni ured za demografiju i mlade
+Opis: Usluga omogućuje građanima Grada Bjelovara prijavu za dodjelu studentskih stipendija.">e-usluge Grada
+                        Bjelovara</a></li>
+                    <li style="display: none;"><a href="https://e-djecjakartica.hr/eusluga/" target="blank" title="Pružatelj: Središnji državni ured za demografiju i mlade
 Usluga aktivna od: 15.07.2020.
 Razina autentifikacije: 3 - znatna sigurnost
-Opis: Usluga omogućava roditeljima da zatraže digitalnu dječju karticu,  na temelju koje ostvaruju mogućnost na povoljniji pristup robama i uslugama.">e-Dječja kartica</a></li><li style="display: none;"><a target="blank" href="https://egradjani.socskrb.hr" title="Pružatelj: Ministarstvo rada, mirovinskoga sustava, obitelji i socijalne politike
+Opis: Usluga omogućava roditeljima da zatraže digitalnu dječju karticu,  na temelju koje ostvaruju mogućnost na povoljniji pristup robama i uslugama.">e-Dječja
+                        kartica</a></li>
+                    <li style="display: none;"><a href="https://egradjani.socskrb.hr" target="blank" title="Pružatelj: Ministarstvo rada, mirovinskoga sustava, obitelji i socijalne politike
 Usluga aktivna od: 04.10.2017.
 Razina autentifikacije: 2 - niska sigurnost
-Opis: U okviru ove usluge može se dobiti potvrda je li građanin korisnik prava i/ili usluga u centru za socijalnu skrb pod nazivom Potvrda o evidenciji korisnika te se putem ove e-Usluge može podnijeti e-Zahtjev za priznavanje prava na osobnu invalidninu i doplatak za pomoć i njegu temeljem Zakona o socijalnoj skrbi. Mogu se predati sljedeći zahtjevi: Zahtjev za priznavanje prava na osobnu invalidninu (odrasla osoba), Zahtjev za priznavanje prava na osobnu invalidninu (dijete), Zahtjev za priznavanje prava na doplatak za pomoć i njegu (odrasla osoba) i Zahtjev za priznavanje prava na doplatak za pomoć i njegu (dijete).">E-usluge socijalna skrb</a></li><li style="display: none;"><a target="blank" href="https://matice.gov.hr/eVjencanja/" title="Pružatelj: Ministarstvo pravosuđa i uprave
+Opis: U okviru ove usluge može se dobiti potvrda je li građanin korisnik prava i/ili usluga u centru za socijalnu skrb pod nazivom Potvrda o evidenciji korisnika te se putem ove e-Usluge može podnijeti e-Zahtjev za priznavanje prava na osobnu invalidninu i doplatak za pomoć i njegu temeljem Zakona o socijalnoj skrbi. Mogu se predati sljedeći zahtjevi: Zahtjev za priznavanje prava na osobnu invalidninu (odrasla osoba), Zahtjev za priznavanje prava na osobnu invalidninu (dijete), Zahtjev za priznavanje prava na doplatak za pomoć i njegu (odrasla osoba) i Zahtjev za priznavanje prava na doplatak za pomoć i njegu (dijete).">E-usluge
+                        socijalna skrb</a></li>
+                    <li style="display: none;"><a href="https://matice.gov.hr/eVjencanja/" target="blank" title="Pružatelj: Ministarstvo pravosuđa i uprave
 Usluga aktivna od: 01.07.2020.
 Razina autentifikacije: 3 - znatna sigurnost
-Opis: Usluga omogućava ženiku i nevjesti da podnesu prijavu namjere sklapanja braka u građanskom obliku, rezervaciju termina i lokacije u službenim prostorijama te online plaćanje upravnih pristojbi putem sustava e-Pristojbe.">e-Prijava vjenčanja</a></li><li style="display: none;"><a target="blank" href="https://hana.hzjz.hr" title="Pružatelj: Hrvatski zavod za javno zdravstvo
+Opis: Usluga omogućava ženiku i nevjesti da podnesu prijavu namjere sklapanja braka u građanskom obliku, rezervaciju termina i lokacije u službenim prostorijama te online plaćanje upravnih pristojbi putem sustava e-Pristojbe.">e-Prijava
+                        vjenčanja</a></li>
+                    <li style="display: none;"><a href="https://hana.hzjz.hr" target="blank" title="Pružatelj: Hrvatski zavod za javno zdravstvo
 Usluga aktivna od: 01.01.2020.
 Razina autentifikacije: 3 - znatna sigurnost
 Opis: Usluga omogućava pribavljanje elektroničkih potvrda iz Registra osoba s invaliditetom: potvrda u svrhu zapošljavanja, potvrda u svrhu subvencioniranja kredita te potvrda o upisu u Hrvatski registar o osobama s invaliditetom.
-">Potvrde iz Registra osoba s invaliditetom</a></li></ul><div class="box_navigation_eusluge-nias_themes-1_1 pager-nav"><a class="first_link  no_more" href="">&lt;&lt;</a><a class="previous_link  no_more" href="">&lt;</a><span class="ellipse less" style="display: none;">...</span><a class="page_link  first active_page" href="" longdesc="0" style="display: block;">1</a><a class="page_link  last" href="" longdesc="1" style="display: block;">2</a><span class="ellipse more" style="display: none;">...</span><a class="next_link" href="">&gt;</a><a class="last_link" href="">&gt;&gt;</a></div></div><div class="themes-2 cbox lastCbox" style="margin: 0px 0px 14px; height: 313px;"><h3 id="eusluge-nias_themes-2" class="cbox-title">Odgoj i obrazovanje&nbsp;<span>(7)</span></h3><span class="counter"></span><ul class="themes-2"><li style="display: list-item;"><a target="blank" href="https://issp.srce.hr/e-potvrda/Login.aspx" title="Pružatelj: Ministarstvo znanosti i obrazovanja
+">Potvrde iz Registra osoba s invaliditetom</a></li>
+                </ul>
+                <div class="box_navigation_eusluge-nias_themes-1_1 pager-nav"><a class="first_link  no_more" href="">&lt;&lt;</a><a
+                        class="previous_link  no_more" href="">&lt;</a><span class="ellipse less"
+                                                                             style="display: none;">...</span><a
+                        class="page_link  first active_page" href="" longdesc="0" style="display: block;">1</a><a
+                        class="page_link  last" href="" longdesc="1" style="display: block;">2</a><span
+                        class="ellipse more" style="display: none;">...</span><a class="next_link" href="">&gt;</a><a
+                        class="last_link" href="">&gt;&gt;</a></div>
+            </div>
+            <div class="themes-2 cbox lastCbox" style="margin: 0px 0px 14px; height: 313px;"><h3
+                    class="cbox-title" id="eusluge-nias_themes-2">Odgoj i obrazovanje&nbsp;<span>(7)</span></h3><span
+                    class="counter"></span>
+                <ul class="themes-2">
+                    <li style="display: list-item;"><a href="https://issp.srce.hr/e-potvrda/Login.aspx" target="blank"
+                                                       title="Pružatelj: Ministarstvo znanosti i obrazovanja
 Usluga aktivna od: 22.01.2016.
 Razina autentifikacije: 2 - niska sigurnost
-Opis: Omogućavanje studentu da upotrebom e-usluge posjeduje dokaz o studentskom statusu iz evidencije izdanih studentskih isprava">e-Zapis o statusu studenta</a></li><li style="display: list-item;"><a target="blank" href="https://ocjene.skole.hr/" title="Pružatelj: Hrvatska akademska i istraživačka mreža - CARNET
+Opis: Omogućavanje studentu da upotrebom e-usluge posjeduje dokaz o studentskom statusu iz evidencije izdanih studentskih isprava">e-Zapis
+                        o statusu studenta</a></li>
+                    <li style="display: list-item;"><a href="https://ocjene.skole.hr/" target="blank" title="Pružatelj: Hrvatska akademska i istraživačka mreža - CARNET
 Usluga aktivna od: 08.04.2014.
 Razina autentifikacije: 2 - niska sigurnost
-Opis: e-Dnevnik za roditelje je web aplikacija kojoj mogu pristupiti roditelji učenika škola koje koriste e-Dnevnik sustav u tekućoj školskoj godini. Putem ove aplikacije roditelju je omogućen uvid u osobne podatke, ocjene, izostanke, bilješke, planirani raspored pisanih zadaća i ostale podatke o djetetu koje su predmetni nastavnici i razrednik unijeli u e-Dnevnik.">e-Dnevnik za roditelje</a></li><li style="display: list-item;"><a target="blank" href="https://hosting.aaiedu.hr/hfh/" title="Pružatelj: Sveučilišni računski centar (Srce)
+Opis: e-Dnevnik za roditelje je web aplikacija kojoj mogu pristupiti roditelji učenika škola koje koriste e-Dnevnik sustav u tekućoj školskoj godini. Putem ove aplikacije roditelju je omogućen uvid u osobne podatke, ocjene, izostanke, bilješke, planirani raspored pisanih zadaća i ostale podatke o djetetu koje su predmetni nastavnici i razrednik unijeli u e-Dnevnik.">e-Dnevnik
+                        za roditelje</a></li>
+                    <li style="display: list-item;"><a href="https://hosting.aaiedu.hr/hfh/" target="blank" title="Pružatelj: Sveučilišni računski centar (Srce)
 Usluga aktivna od: 05.12.2016.
 Razina autentifikacije: 2 - niska sigurnost
-Opis: Servis za izdavanje AAI@EduHr elektroničkih identiteta pojedincima vezanim uz sustav znanosti i visokog obrazovanja koji nisu povezani niti s jednom matičnom ustanovom u sustavu AAI@EduHr.">Home for Homeless servis u sustavu AAI@EduHr</a></li><li style="display: list-item;"><a target="blank" href="http://lms.srce.hr" title="Pružatelj: Sveučilišni računski centar (Srce)
+Opis: Servis za izdavanje AAI@EduHr elektroničkih identiteta pojedincima vezanim uz sustav znanosti i visokog obrazovanja koji nisu povezani niti s jednom matičnom ustanovom u sustavu AAI@EduHr.">Home
+                        for Homeless servis u sustavu AAI@EduHr</a></li>
+                    <li style="display: list-item;"><a href="http://lms.srce.hr" target="blank" title="Pružatelj: Sveučilišni računski centar (Srce)
 Usluga aktivna od: 01.02.2018.
 Razina autentifikacije: 2 - niska sigurnost
-Opis: Usluga omogućava svim zainteresiranim korisnicima da putem sustava za e-učenje Tečajeva Srca bez naknade pristupaju tečajevima koje izrađuje Sveučilišni računski centar. Tečajevi su namijenjeni svima koji žele proširiti svoje znanje iz područja uporabe informacijsko-komunikacijskih tehnologija.">Online Tečajevi Srca</a></li><li style="display: list-item;"><a target="blank" href="https://ePodnesak.mzo.hr" title="Pružatelj: Ministarstvo znanosti i obrazovanja
+Opis: Usluga omogućava svim zainteresiranim korisnicima da putem sustava za e-učenje Tečajeva Srca bez naknade pristupaju tečajevima koje izrađuje Sveučilišni računski centar. Tečajevi su namijenjeni svima koji žele proširiti svoje znanje iz područja uporabe informacijsko-komunikacijskih tehnologija.">Online
+                        Tečajevi Srca</a></li>
+                    <li style="display: list-item;"><a href="https://ePodnesak.mzo.hr" target="blank" title="Pružatelj: Ministarstvo znanosti i obrazovanja
 Usluga aktivna od: 01.01.2018.
 Razina autentifikacije: 2 - niska sigurnost
-Opis: Usluga omogućava fizičkim i pravnim osobama registraciju poslovnog nastana u sklopu nadležnosti Ministarstva te predaju ostalih podnesaka elektroničkim putem umjesto slanja poštom; pregled podnesenih podnesaka te obavještavanje o njihovom zaprimanju i urudžbiranju (OKP).">ePodnesak Ministarstva znanosti i obrazovanja</a></li><li style="display: none;"><a target="blank" href="https://emrex.studij.hr" title="Pružatelj: Agencija za znanost i visoko obrazovanje
+Opis: Usluga omogućava fizičkim i pravnim osobama registraciju poslovnog nastana u sklopu nadležnosti Ministarstva te predaju ostalih podnesaka elektroničkim putem umjesto slanja poštom; pregled podnesenih podnesaka te obavještavanje o njihovom zaprimanju i urudžbiranju (OKP).">ePodnesak
+                        Ministarstva znanosti i obrazovanja</a></li>
+                    <li style="display: none;"><a href="https://emrex.studij.hr" target="blank" title="Pružatelj: Agencija za znanost i visoko obrazovanje
 Usluga aktivna od: 13.04.2018.
 Razina autentifikacije: 2 - niska sigurnost
-Opis: Studentima usluga omogućava preuzimanje njihovih prijepisa ocjena ostvarenih na visokom učilištu u RH i slanje drugom visokom učilištu.">e-Razmjena studentskih ocjena</a></li><li style="display: none;"><a target="blank" href="https://diplomski.studij.hr" title="Pružatelj: Agencija za znanost i visoko obrazovanje
+Opis: Studentima usluga omogućava preuzimanje njihovih prijepisa ocjena ostvarenih na visokom učilištu u RH i slanje drugom visokom učilištu.">e-Razmjena
+                        studentskih ocjena</a></li>
+                    <li style="display: none;"><a href="https://diplomski.studij.hr" target="blank" title="Pružatelj: Agencija za znanost i visoko obrazovanje
 Usluga aktivna od: 01.07.2015.
 Razina autentifikacije: 2 - niska sigurnost
-Opis: Usluga pomoću koje kandidati koji žele upisati diplomski studijski program u RH mogu putem Nacionalnog informacijskog sustava prijava na diplomske studije prijaviti do 10 studijskih programa visokih učilišta koji sudjeluju u projektu. Sustav na temelju uvjeta upisa i rezultata kandidata generira rang liste i kandidatima koji su ostvarili pravo upisa dodjeljuje upisne brojeve. Usluga kandidatima omogućava veći broj prijava studijskih programa, ne zahtjeva slanje dokumentacije, postupak upisa čini potpuno transparentnim, smanjuje radno opterećenje radnog osoblja visokih učilišta te smanjuje troškove procesa upisa.">Središnja prijava na diplomske studijske programe</a></li></ul><div class="box_navigation_eusluge-nias_themes-2_2 pager-nav"><a class="first_link  no_more" href="">&lt;&lt;</a><a class="previous_link  no_more" href="">&lt;</a><span class="ellipse less" style="display: none;">...</span><a class="page_link  first active_page" href="" longdesc="0" style="display: block;">1</a><a class="page_link  last" href="" longdesc="1" style="display: block;">2</a><span class="ellipse more" style="display: none;">...</span><a class="next_link" href="">&gt;</a><a class="last_link" href="">&gt;&gt;</a></div></div><div class="themes-3 cbox" style="height: 313px;"><h3 id="eusluge-nias_themes-3" class="cbox-title">Promet i vozila&nbsp;<span>(9)</span></h3><span class="counter"></span><ul class="themes-3"><li style="display: list-item;"><a target="blank" href="https://edokumenti.tehnicki.hr/auth/sendRequest" title="Pružatelj: Centar za vozila Hrvatske d.d.
+Opis: Usluga pomoću koje kandidati koji žele upisati diplomski studijski program u RH mogu putem Nacionalnog informacijskog sustava prijava na diplomske studije prijaviti do 10 studijskih programa visokih učilišta koji sudjeluju u projektu. Sustav na temelju uvjeta upisa i rezultata kandidata generira rang liste i kandidatima koji su ostvarili pravo upisa dodjeljuje upisne brojeve. Usluga kandidatima omogućava veći broj prijava studijskih programa, ne zahtjeva slanje dokumentacije, postupak upisa čini potpuno transparentnim, smanjuje radno opterećenje radnog osoblja visokih učilišta te smanjuje troškove procesa upisa.">Središnja
+                        prijava na diplomske studijske programe</a></li>
+                </ul>
+                <div class="box_navigation_eusluge-nias_themes-2_2 pager-nav"><a class="first_link  no_more" href="">&lt;&lt;</a><a
+                        class="previous_link  no_more" href="">&lt;</a><span class="ellipse less"
+                                                                             style="display: none;">...</span><a
+                        class="page_link  first active_page" href="" longdesc="0" style="display: block;">1</a><a
+                        class="page_link  last" href="" longdesc="1" style="display: block;">2</a><span
+                        class="ellipse more" style="display: none;">...</span><a class="next_link" href="">&gt;</a><a
+                        class="last_link" href="">&gt;&gt;</a></div>
+            </div>
+            <div class="themes-3 cbox" style="height: 313px;"><h3 class="cbox-title" id="eusluge-nias_themes-3">Promet i
+                vozila&nbsp;<span>(9)</span></h3><span class="counter"></span>
+                <ul class="themes-3">
+                    <li style="display: list-item;"><a href="https://edokumenti.tehnicki.hr/auth/sendRequest"
+                                                       target="blank" title="Pružatelj: Centar za vozila Hrvatske d.d.
 Usluga aktivna od: 18.02.2021.
 Razina autentifikacije: 3 - znatna sigurnost
-Opis: Dostava elektroničkih isprava u postupcima registracije, ispitivanja i provjere sukladnosti (homologacije) vozila.">Dostava elektroničkih isprava za registraciju vozila u Republici Hrvatskoj</a></li><li style="display: list-item;"><a target="blank" href="https://eprekrsaji.mup.hr" title="Pružatelj: Ministarstvo unutarnjih poslova
+Opis: Dostava elektroničkih isprava u postupcima registracije, ispitivanja i provjere sukladnosti (homologacije) vozila.">Dostava
+                        elektroničkih isprava za registraciju vozila u Republici Hrvatskoj</a></li>
+                    <li style="display: list-item;"><a href="https://eprekrsaji.mup.hr" target="blank" title="Pružatelj: Ministarstvo unutarnjih poslova
 Usluga aktivna od: 16.10.2020.
 Razina autentifikacije: 3 - znatna sigurnost
-Opis: Usluga omogućava pregled obavijesti o prekršaju i fotografije prekršaja, te  dostavu podataka o vozaču vozila snimljenog u prekršaju.">Obavijest o prekršaju u prometu</a></li><li style="display: list-item;"><a target="blank" href="https://e-carina.carina.hr/ppmv/" title="Pružatelj: Ministarstvo financija
+Opis: Usluga omogućava pregled obavijesti o prekršaju i fotografije prekršaja, te  dostavu podataka o vozaču vozila snimljenog u prekršaju.">Obavijest
+                        o prekršaju u prometu</a></li>
+                    <li style="display: list-item;"><a href="https://e-carina.carina.hr/ppmv/" target="blank" title="Pružatelj: Ministarstvo financija
 Usluga aktivna od: 27.07.2016.
 Razina autentifikacije: 3 - znatna sigurnost
-Opis: Usluga omogućuje fizičkim osobama  koje su odabrale utvrđivanje porezne obveze putem Tablice 1 Pravilnika o posebnom porezu na motorna vozila obavljanje cijelog postupka prijave, obračuna i plaćanja posebnog poreza na motorna vozila (PPMV) (i naknade za gospodarenje otpadnim vozilima) bez fizičkog dolaska u carinski ured.">Porezna prijava za obračun i plaćanje posebnog poreza na motorna vozila</a></li><li style="display: list-item;"><a target="blank" href="https://eplovilo.pomorstvo.hr/" title="Pružatelj: Ministarstvo mora, prometa i infrastrukture
+Opis: Usluga omogućuje fizičkim osobama  koje su odabrale utvrđivanje porezne obveze putem Tablice 1 Pravilnika o posebnom porezu na motorna vozila obavljanje cijelog postupka prijave, obračuna i plaćanja posebnog poreza na motorna vozila (PPMV) (i naknade za gospodarenje otpadnim vozilima) bez fizičkog dolaska u carinski ured.">Porezna
+                        prijava za obračun i plaćanje posebnog poreza na motorna vozila</a></li>
+                    <li style="display: list-item;"><a href="https://eplovilo.pomorstvo.hr/" target="blank" title="Pružatelj: Ministarstvo mora, prometa i infrastrukture
 Usluga aktivna od: 15.09.2016.
 Razina autentifikacije: 2 - niska sigurnost
-Opis: Usluga omogućuje vlasnicima brodica i jahti  upisanih u službene evidencije Republike Hrvatske uvid u izdane dokumente, valjanosti tehničkih pregleda te zaprimanje ispostavljenih naknada za upotrebu objekata sigurnosti plovidbe.">e-Plovilo</a></li><li style="display: list-item;"><a target="blank" href="https://evozacka.mup.hr" title="Pružatelj: Ministarstvo unutarnjih poslova
+Opis: Usluga omogućuje vlasnicima brodica i jahti  upisanih u službene evidencije Republike Hrvatske uvid u izdane dokumente, valjanosti tehničkih pregleda te zaprimanje ispostavljenih naknada za upotrebu objekata sigurnosti plovidbe.">e-Plovilo</a>
+                    </li>
+                    <li style="display: list-item;"><a href="https://evozacka.mup.hr" target="blank" title="Pružatelj: Ministarstvo unutarnjih poslova
 Usluga aktivna od: 15.05.2017.
 Razina autentifikacije: 4 - visoka sigurnost
-Opis: Usluga omogućava podnošenje zahtjeva za izdavanje vozačke dozvole.">e-Zahtjev za izdavanje vozačke dozvole</a></li><li style="display: none;"><a target="blank" href="https://drone.ccaa.hr/login/" title="Pružatelj: Hrvatska agencija za civilno zrakoplovstvo
+Opis: Usluga omogućava podnošenje zahtjeva za izdavanje vozačke dozvole.">e-Zahtjev za izdavanje vozačke dozvole</a>
+                    </li>
+                    <li style="display: none;"><a href="https://drone.ccaa.hr/login/" target="blank" title="Pružatelj: Hrvatska agencija za civilno zrakoplovstvo
 Usluga aktivna od: 03.06.2019.
 Razina autentifikacije: 2 - niska sigurnost
-Opis: Prijava operatora bespilotnih zrakoplova i pronalaženje informacija vezanih za sustave bespilotnih zrakoplova">Registracija operatora bespilotnih zrakoplova</a></li><li style="display: none;"><a target="blank" href="https://etahograf.akd.hr/servlet/SendAuthnRequest" title="Pružatelj: Agencija za komercijalnu djelatnost proizvodno, uslužno i trgovačko d.o.o.
+Opis: Prijava operatora bespilotnih zrakoplova i pronalaženje informacija vezanih za sustave bespilotnih zrakoplova">Registracija
+                        operatora bespilotnih zrakoplova</a></li>
+                    <li style="display: none;"><a href="https://etahograf.akd.hr/servlet/SendAuthnRequest"
+                                                  target="blank" title="Pružatelj: Agencija za komercijalnu djelatnost proizvodno, uslužno i trgovačko d.o.o.
 Usluga aktivna od: 02.07.2020.
 Razina autentifikacije: 4 - visoka sigurnost
-Opis: Usluga omogućava fizičkim osobama - vozačima podnošenje e-zahtjeva za izdavanjem kartica koje služe za identifikaciju vozača te koje omogućuju pohranu podataka o aktivnosti vozača.">eTahograf</a></li><li style="display: none;"><a target="blank" href="https://www.otocna-iskaznica.hr" title="Pružatelj: Agencija za obalni linijski pomorski promet
+Opis: Usluga omogućava fizičkim osobama - vozačima podnošenje e-zahtjeva za izdavanjem kartica koje služe za identifikaciju vozača te koje omogućuju pohranu podataka o aktivnosti vozača.">eTahograf</a>
+                    </li>
+                    <li style="display: none;"><a href="https://www.otocna-iskaznica.hr" target="blank" title="Pružatelj: Agencija za obalni linijski pomorski promet
 Usluga aktivna od: 07.04.2020.
 Razina autentifikacije: 3 - znatna sigurnost
-Opis: Usluga omogućava korisnicima koji ostvaruju pravo na povlašteni prijevoz u obalnom linijskom pomorskom prometu: uvid u aktivne otočne iskaznice, pregled ostvarenih putovanja, podnošenje e-zahtjeva za izdavanje otočne iskaznice za osobu, podnošenje e-zahtjeva za izdavanje otočne iskaznice za vozilo, pregled podnesenih zahtjeva, administriranje korisničkih podataka.">Otočna iskaznica</a></li><li style="display: none;"><a target="blank" href="https://enautika.pomorstvo.hr/" title="Pružatelj: Ministarstvo mora, prometa i infrastrukture
+Opis: Usluga omogućava korisnicima koji ostvaruju pravo na povlašteni prijevoz u obalnom linijskom pomorskom prometu: uvid u aktivne otočne iskaznice, pregled ostvarenih putovanja, podnošenje e-zahtjeva za izdavanje otočne iskaznice za osobu, podnošenje e-zahtjeva za izdavanje otočne iskaznice za vozilo, pregled podnesenih zahtjeva, administriranje korisničkih podataka.">Otočna
+                        iskaznica</a></li>
+                    <li style="display: none;"><a href="https://enautika.pomorstvo.hr/" target="blank" title="Pružatelj: Ministarstvo mora, prometa i infrastrukture
 Usluga aktivna od: 15.01.2020.
 Razina autentifikacije: 2 - niska sigurnost
-Opis: Usluga omogućava online prijavu dolaska stranog plovila ili hrvatskog čamca u hrvatske teritorijalne vode, radi plaćanja i preuzimanja elektroničke potvrde o uplati naknade za sigurnost plovidbe.">e-Nautika</a></li></ul><div class="box_navigation_eusluge-nias_themes-3_3 pager-nav"><a class="first_link  no_more" href="">&lt;&lt;</a><a class="previous_link  no_more" href="">&lt;</a><span class="ellipse less" style="display: none;">...</span><a class="page_link  first active_page" href="" longdesc="0" style="display: block;">1</a><a class="page_link  last" href="" longdesc="1" style="display: block;">2</a><span class="ellipse more" style="display: none;">...</span><a class="next_link" href="">&gt;</a><a class="last_link" href="">&gt;&gt;</a></div></div><div class="themes-4 cbox" style="height: 313px;"><h3 id="eusluge-nias_themes-4" class="cbox-title">Aktivno građanstvo&nbsp;<span>(4)</span></h3><span class="counter"></span><ul class="themes-4"><li><a target="blank" href="https://registri.uprava.hr/#!izdavanjeElZapisa" title="Pružatelj: Ministarstvo pravosuđa i uprave
+Opis: Usluga omogućava online prijavu dolaska stranog plovila ili hrvatskog čamca u hrvatske teritorijalne vode, radi plaćanja i preuzimanja elektroničke potvrde o uplati naknade za sigurnost plovidbe.">e-Nautika</a>
+                    </li>
+                </ul>
+                <div class="box_navigation_eusluge-nias_themes-3_3 pager-nav"><a class="first_link  no_more" href="">&lt;&lt;</a><a
+                        class="previous_link  no_more" href="">&lt;</a><span class="ellipse less"
+                                                                             style="display: none;">...</span><a
+                        class="page_link  first active_page" href="" longdesc="0" style="display: block;">1</a><a
+                        class="page_link  last" href="" longdesc="1" style="display: block;">2</a><span
+                        class="ellipse more" style="display: none;">...</span><a class="next_link" href="">&gt;</a><a
+                        class="last_link" href="">&gt;&gt;</a></div>
+            </div>
+            <div class="themes-4 cbox" style="height: 313px;"><h3 class="cbox-title" id="eusluge-nias_themes-4">Aktivno
+                građanstvo&nbsp;<span>(4)</span></h3><span class="counter"></span>
+                <ul class="themes-4">
+                    <li><a href="https://registri.uprava.hr/#!izdavanjeElZapisa" target="blank" title="Pružatelj: Ministarstvo pravosuđa i uprave
 Usluga aktivna od: 31.12.2020.
 Razina autentifikacije: 2 - niska sigurnost
 Opis: Ova elektronička usluga omogućava korisnicima sustava e-Građani izdavanje elektroničkih zapisa iz sljedećih registara:
-Registar udruga RH, Registar stranih udruga u RH, Registar političkih stranaka RH, Registar zaklada RH, Registar stranih zaklada u RH, Evidencija pravnih osoba Katoličke Crkve u RH, Evidencija vjerskih zajednica u RH, Registar vijeća, koordinacija vijeća i predstavnika nacionalnih manjina.">Registri neprofitnih pravnih osoba</a></li><li><a target="blank" href="https://esavjetovanja.gov.hr/ECon/Dashboard" title="Pružatelj: Središnji državni ured za razvoj digitalnog društva
+Registar udruga RH, Registar stranih udruga u RH, Registar političkih stranaka RH, Registar zaklada RH, Registar stranih zaklada u RH, Evidencija pravnih osoba Katoličke Crkve u RH, Evidencija vjerskih zajednica u RH, Registar vijeća, koordinacija vijeća i predstavnika nacionalnih manjina.">Registri
+                        neprofitnih pravnih osoba</a></li>
+                    <li><a href="https://esavjetovanja.gov.hr/ECon/Dashboard" target="blank" title="Pružatelj: Središnji državni ured za razvoj digitalnog društva
 Usluga aktivna od: 27.04.2015.
 Razina autentifikacije: 2 - niska sigurnost
-Opis: Aplikacija e-Savjetovanja omogućuje uključivanje u otvorena javna savjetovanja u postupku donošenja zakona, drugih propisa i akata.">eSavjetovanja</a></li><li><a target="blank" href="https://e-prijavnice.min-kulture.hr/e-pisarnica" title="Pružatelj: Ministarstvo kulture i medija
+Opis: Aplikacija e-Savjetovanja omogućuje uključivanje u otvorena javna savjetovanja u postupku donošenja zakona, drugih propisa i akata.">eSavjetovanja</a>
+                    </li>
+                    <li><a href="https://e-prijavnice.min-kulture.hr/e-pisarnica" target="blank" title="Pružatelj: Ministarstvo kulture i medija
 Usluga aktivna od: 01.09.2019.
 Razina autentifikacije: 2 - niska sigurnost
-Opis: Usluga za korisnike/prijavitelje na javni poziv za financiranje javnih potreba u kulturi iz djelokruga Ministarstva kulture RH.">e-prijavnice Ministarstva kulture</a></li><li><a target="blank" href="https://moj.zagreb.hr/" title="Pružatelj: Grad Zagreb
+Opis: Usluga za korisnike/prijavitelje na javni poziv za financiranje javnih potreba u kulturi iz djelokruga Ministarstva kulture RH.">e-prijavnice
+                        Ministarstva kulture</a></li>
+                    <li><a href="https://moj.zagreb.hr/" target="blank" title="Pružatelj: Grad Zagreb
 Usluga aktivna od: 03.11.2017.
 Razina autentifikacije: 2 - niska sigurnost
-Opis: Usluga građanima Grada Zagreba omogućava jedinstvenu točku mobilnog i web pristupa raznim e-uslugama Grada Zagreba.">MojZagreb</a></li></ul><div class="box_navigation_eusluge-nias_themes-4_4 pager-nav"></div></div><div class="themes-5 cbox lastCbox" style="margin: 0px 0px 14px; height: 313px;"><h3 id="eusluge-nias_themes-5" class="cbox-title">Branitelji&nbsp;<span>(1)</span></h3><span class="counter"></span><ul class="themes-5"><li><a target="blank" href="https://ebranitelji.branitelji.hr/kpm/f?p=700:1:0" title="Pružatelj: Ministarstvo hrvatskih branitelja
+Opis: Usluga građanima Grada Zagreba omogućava jedinstvenu točku mobilnog i web pristupa raznim e-uslugama Grada Zagreba.">MojZagreb</a>
+                    </li>
+                </ul>
+                <div class="box_navigation_eusluge-nias_themes-4_4 pager-nav"></div>
+            </div>
+            <div class="themes-5 cbox lastCbox" style="margin: 0px 0px 14px; height: 313px;"><h3
+                    class="cbox-title" id="eusluge-nias_themes-5">Branitelji&nbsp;<span>(1)</span></h3><span
+                    class="counter"></span>
+                <ul class="themes-5">
+                    <li><a href="https://ebranitelji.branitelji.hr/kpm/f?p=700:1:0" target="blank" title="Pružatelj: Ministarstvo hrvatskih branitelja
 Usluga aktivna od: 08.01.2020.
 Razina autentifikacije: 2 - niska sigurnost
-Opis: Usluga omogućava fizičkim korisnicima predaju zahtjeva za otkup stana ili kuće pod pristupačnijim uvjetima od tržišnih u pogledu kamata i rokova otplate.">Predaja zahtjeva hrvatskih branitelja i članova obitelji</a></li></ul><div class="box_navigation_eusluge-nias_themes-5_5 pager-nav"></div></div><div class="themes-6 cbox" style="height: 313px;"><h3 id="eusluge-nias_themes-6" class="cbox-title">Financije i porezi&nbsp;<span>(4)</span></h3><span class="counter"></span><ul class="themes-6"><li><a target="blank" href="https://eblokade.fina.hr" title="Pružatelj: Financijska agencija - FINA
+Opis: Usluga omogućava fizičkim korisnicima predaju zahtjeva za otkup stana ili kuće pod pristupačnijim uvjetima od tržišnih u pogledu kamata i rokova otplate.">Predaja
+                        zahtjeva hrvatskih branitelja i članova obitelji</a></li>
+                </ul>
+                <div class="box_navigation_eusluge-nias_themes-5_5 pager-nav"></div>
+            </div>
+            <div class="themes-6 cbox" style="height: 313px;"><h3 class="cbox-title" id="eusluge-nias_themes-6">
+                Financije i porezi&nbsp;<span>(4)</span></h3><span class="counter"></span>
+                <ul class="themes-6">
+                    <li><a href="https://eblokade.fina.hr" target="blank" title="Pružatelj: Financijska agencija - FINA
 Usluga aktivna od: 03.04.2020.
 Razina autentifikacije: 2 - niska sigurnost
-Opis: Uslugom e-Blokade omogućava se korisnicima - građanima - da putem platforme e-Građani dohvate informacije iz sustava provedbe ovrhe na novčanim sredstvima.">e-Blokade</a></li><li><a target="blank" href="https://porezna.gov.hr/OibEGradjani/" title="Pružatelj: Ministarstvo financija
+Opis: Uslugom e-Blokade omogućava se korisnicima - građanima - da putem platforme e-Građani dohvate informacije iz sustava provedbe ovrhe na novčanim sredstvima.">e-Blokade</a>
+                    </li>
+                    <li><a href="https://porezna.gov.hr/OibEGradjani/" target="blank" title="Pružatelj: Ministarstvo financija
 Usluga aktivna od: 08.04.2014.
 Razina autentifikacije: 2 - niska sigurnost
-Opis: Pregled osobnih podataka iz Evidencije o osobnim identifikacijskim brojevima koju vodi Ministarstvo financija - Porezna uprava. Evidencija o osobnim identifikacijskim brojevima je jedinstveno mjesto stalno ažurnih podataka o osobama. Možete zatražiti i dobiti elektronički zapis o svojim podacima pohranjenim u bazi podataka.">Moj OIB</a></li><li><a target="blank" href="https://e-porezna.porezna-uprava.hr" title="Pružatelj: Ministarstvo financija
+Opis: Pregled osobnih podataka iz Evidencije o osobnim identifikacijskim brojevima koju vodi Ministarstvo financija - Porezna uprava. Evidencija o osobnim identifikacijskim brojevima je jedinstveno mjesto stalno ažurnih podataka o osobama. Možete zatražiti i dobiti elektronički zapis o svojim podacima pohranjenim u bazi podataka.">Moj
+                        OIB</a></li>
+                    <li><a href="https://e-porezna.porezna-uprava.hr" target="blank" title="Pružatelj: Ministarstvo financija
 Usluga aktivna od: 24.07.2017.
 Razina autentifikacije: 2 - niska sigurnost
-Opis: ePorezna je elektronička usluga Ministarstva financija - Porezne uprave koja svim građanima omogućuje elektroničku komunikaciju s Poreznom upravom.">ePorezna</a></li><li><a target="blank" href="https://www.skdd.hr/NIAS/route/SendAuthnRequest" title="Pružatelj: Središnje klirinško depozitarno društvo d.d.
+Opis: ePorezna je elektronička usluga Ministarstva financija - Porezne uprave koja svim građanima omogućuje elektroničku komunikaciju s Poreznom upravom.">ePorezna</a>
+                    </li>
+                    <li><a href="https://www.skdd.hr/NIAS/route/SendAuthnRequest" target="blank" title="Pružatelj: Središnje klirinško depozitarno društvo d.d.
 Usluga aktivna od: 27.11.2018.
 Razina autentifikacije: 3 - znatna sigurnost
-Opis: Prijava u besplatnu uslugu koja omogućava: provjeru stanja vrijednosnih papira, pregled općih podataka, pregled isplaćenih i neisplaćenih sredstava iz korporativnih akcija, pregled tereta, narudžba i preuzimanje određenih izvještaja/obavijesti, promjena PIN-a i PUK-a, promjena dopisne adrese i adrese oporezivanja, te mogućnost pregleda i potvrde zahtjeva za registraciju.">SKDD e-Ulagatelj</a></li></ul><div class="box_navigation_eusluge-nias_themes-6_6 pager-nav"></div></div><div class="themes-7 cbox" style="height: 313px;"><h3 id="eusluge-nias_themes-7" class="cbox-title">Zdravlje&nbsp;<span>(5)</span></h3><span class="counter"></span><ul class="themes-7"><li><a target="blank" href="https://portal.zdravlje.hr/portalzdravlja" title="Pružatelj: Ministarstvo zdravstva
+Opis: Prijava u besplatnu uslugu koja omogućava: provjeru stanja vrijednosnih papira, pregled općih podataka, pregled isplaćenih i neisplaćenih sredstava iz korporativnih akcija, pregled tereta, narudžba i preuzimanje određenih izvještaja/obavijesti, promjena PIN-a i PUK-a, promjena dopisne adrese i adrese oporezivanja, te mogućnost pregleda i potvrde zahtjeva za registraciju.">SKDD
+                        e-Ulagatelj</a></li>
+                </ul>
+                <div class="box_navigation_eusluge-nias_themes-6_6 pager-nav"></div>
+            </div>
+            <div class="themes-7 cbox" style="height: 313px;"><h3 class="cbox-title" id="eusluge-nias_themes-7">Zdravlje&nbsp;<span>(5)</span>
+            </h3><span class="counter"></span>
+                <ul class="themes-7">
+                    <li><a href="https://portal.zdravlje.hr/portalzdravlja" target="blank" title="Pružatelj: Ministarstvo zdravstva
 Usluga aktivna od: 20.09.2016.
 Razina autentifikacije: 3 - znatna sigurnost
-Opis: Portal Zdravlja vam pruža uvid u vaš zdravstveni karton. Možete pregledati posjete liječnicima primarne zdravstvene zaštite, specijalističke nalaze/otpusna pisma, podatke o lijekovima/terapijama, laboratorijske nalaze iz PZZ laboratorija, izabrane liječnike te narudžbe na specijalističke preglede. Omogućava korištenje usluge Obnova lijekova te Pregled i otkazivanje narudžbi na specijalističke preglede i pretrage.">Portal zdravlja</a></li><li><a target="blank" href="http://www.cezih.hr/EhicRequest/home.html" title="Pružatelj: Hrvatski zavod za zdravstveno osiguranje
+Opis: Portal Zdravlja vam pruža uvid u vaš zdravstveni karton. Možete pregledati posjete liječnicima primarne zdravstvene zaštite, specijalističke nalaze/otpusna pisma, podatke o lijekovima/terapijama, laboratorijske nalaze iz PZZ laboratorija, izabrane liječnike te narudžbe na specijalističke preglede. Omogućava korištenje usluge Obnova lijekova te Pregled i otkazivanje narudžbi na specijalističke preglede i pretrage.">Portal
+                        zdravlja</a></li>
+                    <li><a href="http://www.cezih.hr/EhicRequest/home.html" target="blank" title="Pružatelj: Hrvatski zavod za zdravstveno osiguranje
 Usluga aktivna od: 08.04.2014.
 Razina autentifikacije: 2 - niska sigurnost
-Opis: Usluga Hrvatskog zavoda za osiguranje - HZZO-a kojom se osiguranicima (građanima RH) daje mogućnost podnošenja zahtjeva za izdavanje Europske kartice zdravstvenog osiguranja (EKZO), kojom osiguranici imaju pravo za vrijeme svog privremenog boravka na području Europske unije, zbog privatnog ili službenog razloga, kod ugovornih liječnika, a na teret HZZO-a, koristiti neodgodive zdravstvene usluge potrebne iz medicinskih razloga,uzimajući u obzir prirodu zdravstvenih usluga i očekivanu dužinu boravka.">Zahtjev za izdavanje Europske kartice zdravstvenog osiguranja (EKZO)</a></li><li><a target="blank" href="https://hzzo.gov.hr/e-usluge/izabranilijecnik/default.aspx" title="Pružatelj: Hrvatski zavod za zdravstveno osiguranje
+Opis: Usluga Hrvatskog zavoda za osiguranje - HZZO-a kojom se osiguranicima (građanima RH) daje mogućnost podnošenja zahtjeva za izdavanje Europske kartice zdravstvenog osiguranja (EKZO), kojom osiguranici imaju pravo za vrijeme svog privremenog boravka na području Europske unije, zbog privatnog ili službenog razloga, kod ugovornih liječnika, a na teret HZZO-a, koristiti neodgodive zdravstvene usluge potrebne iz medicinskih razloga,uzimajući u obzir prirodu zdravstvenih usluga i očekivanu dužinu boravka.">Zahtjev
+                        za izdavanje Europske kartice zdravstvenog osiguranja (EKZO)</a></li>
+                    <li><a href="https://hzzo.gov.hr/e-usluge/izabranilijecnik/default.aspx" target="blank" title="Pružatelj: Hrvatski zavod za zdravstveno osiguranje
 Usluga aktivna od: 08.04.2014.
 Razina autentifikacije: 2 - niska sigurnost
-Opis: Usluga Hrvatskog zavoda za zdravstveno osiguranje - HZZO-a kojom se osiguranicima (građanima RH) daje mogućnost uvida u njihove izabrane liječnike primarne zdravstvene zaštite prema tipu djelatnosti (opća/obiteljska medicina, dentalna medicina, ginekologija, pedijatrija).">Pregled izabranog liječnika</a></li><li><a target="blank" href="https://hzzo.gov.hr/e-usluge/RealiziraniRecepti/" title="Pružatelj: Hrvatski zavod za zdravstveno osiguranje
+Opis: Usluga Hrvatskog zavoda za zdravstveno osiguranje - HZZO-a kojom se osiguranicima (građanima RH) daje mogućnost uvida u njihove izabrane liječnike primarne zdravstvene zaštite prema tipu djelatnosti (opća/obiteljska medicina, dentalna medicina, ginekologija, pedijatrija).">Pregled
+                        izabranog liječnika</a></li>
+                    <li><a href="https://hzzo.gov.hr/e-usluge/RealiziraniRecepti/" target="blank" title="Pružatelj: Hrvatski zavod za zdravstveno osiguranje
 Usluga aktivna od: 02.01.2015.
 Razina autentifikacije: 3 - znatna sigurnost
-Opis: E-usluga je namijenjena osiguranim osobama Zavoda, omogućuje dohvat informacija o realiziranim receptima osigurane osobe za koje su Zavodu u proteklih šest mjeseci izdani računi.">Realizirani recepti</a></li><li><a target="blank" href="https://hzzo.gov.hr/e-usluge/Narudzbe/" title="Pružatelj: Hrvatski zavod za zdravstveno osiguranje
+Opis: E-usluga je namijenjena osiguranim osobama Zavoda, omogućuje dohvat informacija o realiziranim receptima osigurane osobe za koje su Zavodu u proteklih šest mjeseci izdani računi.">Realizirani
+                        recepti</a></li>
+                    <li><a href="https://hzzo.gov.hr/e-usluge/Narudzbe/" target="blank" title="Pružatelj: Hrvatski zavod za zdravstveno osiguranje
 Usluga aktivna od: 15.10.2015.
 Razina autentifikacije: 3 - znatna sigurnost
-Opis: E-usluga je namijenjena fizičkim osobama, osiguranim osobama Zavoda, omogućuje dohvat informacija o otvorenim narudžbama osigurane osobe na zdravstvene postupke u zdravstvenim ustanovama te slanje zahtjeva za otkazivanjem narudžbe, uz navođenje razloga te kontakt podataka (broj telefona, adresa e-pošte). Također je omogućena pretraga slobodnih termina. S obzirom da se radi o osobnim podacima medicinske prirode, korisnik na e-uslugu mora biti prijavljen vjerodajnicom kakva pruža viši stupanj sigurnosti identifikacije i autentifikacije osoba.">Otvorene narudžbe</a></li></ul><div class="box_navigation_eusluge-nias_themes-7_7 pager-nav"></div></div><div class="themes-8 cbox lastCbox" style="margin: 0px 0px 14px; height: 313px;"><h3 id="eusluge-nias_themes-8" class="cbox-title">Rad&nbsp;<span>(14)</span></h3><span class="counter"></span><ul class="themes-8"><li style="display: list-item;"><a target="blank" href="https://epotvrde.mirovinsko.hr/nias-ssin" title="Pružatelj: Hrvatski zavod za mirovinsko osiguranje
+Opis: E-usluga je namijenjena fizičkim osobama, osiguranim osobama Zavoda, omogućuje dohvat informacija o otvorenim narudžbama osigurane osobe na zdravstvene postupke u zdravstvenim ustanovama te slanje zahtjeva za otkazivanjem narudžbe, uz navođenje razloga te kontakt podataka (broj telefona, adresa e-pošte). Također je omogućena pretraga slobodnih termina. S obzirom da se radi o osobnim podacima medicinske prirode, korisnik na e-uslugu mora biti prijavljen vjerodajnicom kakva pruža viši stupanj sigurnosti identifikacije i autentifikacije osoba.">Otvorene
+                        narudžbe</a></li>
+                </ul>
+                <div class="box_navigation_eusluge-nias_themes-7_7 pager-nav"></div>
+            </div>
+            <div class="themes-8 cbox lastCbox" style="margin: 0px 0px 14px; height: 313px;"><h3
+                    class="cbox-title" id="eusluge-nias_themes-8">Rad&nbsp;<span>(14)</span></h3><span
+                    class="counter"></span>
+                <ul class="themes-8">
+                    <li style="display: list-item;"><a href="https://epotvrde.mirovinsko.hr/nias-ssin" target="blank"
+                                                       title="Pružatelj: Hrvatski zavod za mirovinsko osiguranje
 Usluga aktivna od: 26.09.2016.
 Razina autentifikacije: 2 - niska sigurnost
 Opis: Dohvat e-potvrda preko sustava e-Građani u elektroničkom obliku:
-1. Potvrda o stažu i plaći, 2. Obavijest o drugom dohotku, 3.	Potvrda o statusu umirovljenika">e-Potvrde iz mirovinskog sustava</a></li><li style="display: list-item;"><a target="blank" href="https://www2.regos.hr/regos/servlet/RegosInit" title="Pružatelj: REGOS - Središnji registar osiguranika
+1. Potvrda o stažu i plaći, 2. Obavijest o drugom dohotku, 3.	Potvrda o statusu umirovljenika">e-Potvrde iz
+                        mirovinskog sustava</a></li>
+                    <li style="display: list-item;"><a href="https://www2.regos.hr/regos/servlet/RegosInit"
+                                                       target="blank" title="Pružatelj: REGOS - Središnji registar osiguranika
 Usluga aktivna od: 08.04.2014.
 Razina autentifikacije: 2 - niska sigurnost
-Opis: Ovom uslugom članovima obveznog mirovinskog fonda svakodnevno se omogućuje uvid u stanje i promet osobnog računa.">Moj račun - REGOS</a></li><li style="display: list-item;"><a target="blank" href="https://ena.regos.hr/" title="Pružatelj: REGOS - Središnji registar osiguranika
+Opis: Ovom uslugom članovima obveznog mirovinskog fonda svakodnevno se omogućuje uvid u stanje i promet osobnog računa.">Moj
+                        račun - REGOS</a></li>
+                    <li style="display: list-item;"><a href="https://ena.regos.hr/" target="blank" title="Pružatelj: REGOS - Središnji registar osiguranika
 Usluga aktivna od: 08.04.2014.
 Razina autentifikacije: 2 - niska sigurnost
-Opis: Ena predstavlja sustav elektroničkih usluga Središnjeg registra osiguranika - REGOS-a, a omogućava uvid u stanje i promet po osobnom računu člana obveznog mirovinskog fonda.">Sustav elektroničkih usluga REGOS-a</a></li><li style="display: list-item;"><a target="blank" href="http://burzarada-auth.hzz.hr/singlesignon.aspx?origin=burzarada" title="Pružatelj: Hrvatski zavod za zapošljavanje
+Opis: Ena predstavlja sustav elektroničkih usluga Središnjeg registra osiguranika - REGOS-a, a omogućava uvid u stanje i promet po osobnom računu člana obveznog mirovinskog fonda.">Sustav
+                        elektroničkih usluga REGOS-a</a></li>
+                    <li style="display: list-item;"><a href="http://burzarada-auth.hzz.hr/singlesignon.aspx?origin=burzarada"
+                                                       target="blank"
+                                                       title="Pružatelj: Hrvatski zavod za zapošljavanje
 Usluga aktivna od: 08.04.2014.
 Razina autentifikacije: 2 - niska sigurnost
-Opis: Omogućuje unos životopisa nezaposlene osobe/tražitelja zaposlenja i objavu životopisa u bazi podataka  Hrvatskog zavoda za zapošljavanje - HZZ-a kako bi isti mogle pregledavati poslodavci kod traženja radnika, unos životopisa nezaposlene osobe/tražitelja zaposlenja i objavu životopisa u bazi HZZ-a, kao i pregled vlastitih podataka iz evidencije Zavoda.">Burza rada</a></li><li style="display: list-item;"><a target="blank" href="https://erps.mirovinsko.hr/ESOWebSite_Private/" title="Pružatelj: Hrvatski zavod za mirovinsko osiguranje
+Opis: Omogućuje unos životopisa nezaposlene osobe/tražitelja zaposlenja i objavu životopisa u bazi podataka  Hrvatskog zavoda za zapošljavanje - HZZ-a kako bi isti mogle pregledavati poslodavci kod traženja radnika, unos životopisa nezaposlene osobe/tražitelja zaposlenja i objavu životopisa u bazi HZZ-a, kao i pregled vlastitih podataka iz evidencije Zavoda.">Burza
+                        rada</a></li>
+                    <li style="display: list-item;"><a href="https://erps.mirovinsko.hr/ESOWebSite_Private/"
+                                                       target="blank" title="Pružatelj: Hrvatski zavod za mirovinsko osiguranje
 Usluga aktivna od: 08.04.2014.
 Razina autentifikacije: 2 - niska sigurnost
-Opis: Elektronički radno pravni status - ERPS je aplikacija putem koje korisnici mogu elektroničkim putem zatražiti i dobiti elektronički zapis o svojim podatcima evidentiranim u bazi podataka Hrvatskog zavoda za mirovinsko osiguranje. Omogućen je pristup evidencijama osiguranika i podnošenje zahtjeva za elektronički zapis.">Elektronički zapis o radno pravnom statusu (e-radna knjižica)</a></li><li style="display: none;"><a target="blank" href="https://ssl.mirovinsko.hr/nias.aspx" title="Pružatelj: Hrvatski zavod za mirovinsko osiguranje
+Opis: Elektronički radno pravni status - ERPS je aplikacija putem koje korisnici mogu elektroničkim putem zatražiti i dobiti elektronički zapis o svojim podatcima evidentiranim u bazi podataka Hrvatskog zavoda za mirovinsko osiguranje. Omogućen je pristup evidencijama osiguranika i podnošenje zahtjeva za elektronički zapis.">Elektronički
+                        zapis o radno pravnom statusu (e-radna knjižica)</a></li>
+                    <li style="display: none;"><a href="https://ssl.mirovinsko.hr/nias.aspx" target="blank" title="Pružatelj: Hrvatski zavod za mirovinsko osiguranje
 Usluga aktivna od: 10.04.2014.
 Razina autentifikacije: 2 - niska sigurnost
-Opis: Korisničke stranice Hrvatskog zavoda za mirovinsko osiguranje - HZMO">Korisničke stranice HZMO-a</a></li><li style="display: none;"><a target="blank" href="https://e-usluge.mirovinsko.hr/r/ms" title="Pružatelj: Hrvatski zavod za mirovinsko osiguranje
+Opis: Korisničke stranice Hrvatskog zavoda za mirovinsko osiguranje - HZMO">Korisničke stranice HZMO-a</a></li>
+                    <li style="display: none;"><a href="https://e-usluge.mirovinsko.hr/r/ms" target="blank" title="Pružatelj: Hrvatski zavod za mirovinsko osiguranje
 Usluga aktivna od: 30.12.2020.
 Razina autentifikacije: 3 - znatna sigurnost
-Opis: Uslugom se omogućuje podnošenje zahtjeva HZMO-u za priznanje prava na starosnu ili  prijevremenu starosnu mirovinu.">E-zahtjev za starosnu/prijevremenu starosnu mirovinu</a></li><li style="display: none;"><a target="blank" href="https://e-usluge.mirovinsko.hr/r/mi" title="Pružatelj: Hrvatski zavod za mirovinsko osiguranje
+Opis: Uslugom se omogućuje podnošenje zahtjeva HZMO-u za priznanje prava na starosnu ili  prijevremenu starosnu mirovinu.">E-zahtjev
+                        za starosnu/prijevremenu starosnu mirovinu</a></li>
+                    <li style="display: none;"><a href="https://e-usluge.mirovinsko.hr/r/mi" target="blank" title="Pružatelj: Hrvatski zavod za mirovinsko osiguranje
 Usluga aktivna od: 30.12.2020.
 Razina autentifikacije: 3 - znatna sigurnost
-Opis: Uslugom se omogućuje podnošenje zahtjeva HZMO-u za priznanje prava na invalidsku mirovinu.">E-zahtjev za invalidsku mirovinu</a></li><li style="display: none;"><a target="blank" href="https://e-usluge.mirovinsko.hr/r/mpi" title="Pružatelj: Hrvatski zavod za mirovinsko osiguranje
+Opis: Uslugom se omogućuje podnošenje zahtjeva HZMO-u za priznanje prava na invalidsku mirovinu.">E-zahtjev za
+                        invalidsku mirovinu</a></li>
+                    <li style="display: none;"><a href="https://e-usluge.mirovinsko.hr/r/mpi" target="blank" title="Pružatelj: Hrvatski zavod za mirovinsko osiguranje
 Usluga aktivna od: 30.12.2020.
 Razina autentifikacije: 3 - znatna sigurnost
-Opis: Uslugom se omogućuje podnošenje zahtjeva HZMO-u za priznanje prava na privremenu invalidsku mirovinu.">E-zahtjev za privremenu invalidsku mirovinu</a></li><li style="display: none;"><a target="blank" href="https://e-usluge.mirovinsko.hr/r/mo" title="Pružatelj: Hrvatski zavod za mirovinsko osiguranje
+Opis: Uslugom se omogućuje podnošenje zahtjeva HZMO-u za priznanje prava na privremenu invalidsku mirovinu.">E-zahtjev
+                        za privremenu invalidsku mirovinu</a></li>
+                    <li style="display: none;"><a href="https://e-usluge.mirovinsko.hr/r/mo" target="blank" title="Pružatelj: Hrvatski zavod za mirovinsko osiguranje
 Usluga aktivna od: 30.12.2020.
 Razina autentifikacije: 3 - znatna sigurnost
-Opis: Uslugom se omogućuje podnošenje zahtjeva HZMO-u za priznanje prava na obiteljsku mirovinu iza smrti osiguranika.">E-zahtjev za obiteljsku  mirovinu iza osiguranika</a></li><li style="display: none;"><a target="blank" href="https://e-usluge.mirovinsko.hr/r/mk" title="Pružatelj: Hrvatski zavod za mirovinsko osiguranje
+Opis: Uslugom se omogućuje podnošenje zahtjeva HZMO-u za priznanje prava na obiteljsku mirovinu iza smrti osiguranika.">E-zahtjev
+                        za obiteljsku mirovinu iza osiguranika</a></li>
+                    <li style="display: none;"><a href="https://e-usluge.mirovinsko.hr/r/mk" target="blank" title="Pružatelj: Hrvatski zavod za mirovinsko osiguranje
 Usluga aktivna od: 30.12.2020.
 Razina autentifikacije: 3 - znatna sigurnost
-Opis: Uslugom se omogućuje podnošenje zahtjeva HZMO-u za priznanje prava na obiteljsku mirovinu iza smrti korisnika mirovine.">E-zahtjev za obiteljsku  mirovinu iza korisnika mirovine</a></li><li style="display: none;"><a target="blank" href="http://epomorac.pomorstvo.hr/" title="Pružatelj: Ministarstvo mora, prometa i infrastrukture
+Opis: Uslugom se omogućuje podnošenje zahtjeva HZMO-u za priznanje prava na obiteljsku mirovinu iza smrti korisnika mirovine.">E-zahtjev
+                        za obiteljsku mirovinu iza korisnika mirovine</a></li>
+                    <li style="display: none;"><a href="http://epomorac.pomorstvo.hr/" target="blank" title="Pružatelj: Ministarstvo mora, prometa i infrastrukture
 Usluga aktivna od: 01.07.2015.
 Razina autentifikacije: 2 - niska sigurnost
-Opis: Usluga omogućuje predaju zahtjeva za pristupanje ispitu za voditelja brodice. Nakon položenog ispita kandidat će dobiti uvjerenje o osposobljenosti za voditelja brodice.">e-Pomorac</a></li><li style="display: none;"><a target="blank" href="https://eprijava.regos.hr/REGOS-ePrijava" title="Pružatelj: REGOS - Središnji registar osiguranika
+Opis: Usluga omogućuje predaju zahtjeva za pristupanje ispitu za voditelja brodice. Nakon položenog ispita kandidat će dobiti uvjerenje o osposobljenosti za voditelja brodice.">e-Pomorac</a>
+                    </li>
+                    <li style="display: none;"><a href="https://eprijava.regos.hr/REGOS-ePrijava" target="blank" title="Pružatelj: REGOS - Središnji registar osiguranika
 Usluga aktivna od: 26.04.2019.
 Razina autentifikacije: 4 - visoka sigurnost
-Opis: Usluga omogućava prijavu/promjenu u obavezno mirovinsko društvo i kategoriju obaveznog mirovinskog fonda. Usluga zahtjeva korištenje naprednog elektroničkog potpisa.">Obvezni mirovinski fond (prijava/promjena)</a></li><li style="display: none;"><a target="blank" href="https://stecaj.aort.hr/Account/LoginNIAS" title="Pružatelj: Agencija za osiguranje radničkih tražbina
+Opis: Usluga omogućava prijavu/promjenu u obavezno mirovinsko društvo i kategoriju obaveznog mirovinskog fonda. Usluga zahtjeva korištenje naprednog elektroničkog potpisa.">Obvezni
+                        mirovinski fond (prijava/promjena)</a></li>
+                    <li style="display: none;"><a href="https://stecaj.aort.hr/Account/LoginNIAS" target="blank" title="Pružatelj: Agencija za osiguranje radničkih tražbina
 Usluga aktivna od: 20.12.2018.
 Razina autentifikacije: 3 - znatna sigurnost
-Opis: Usluga omogućava radnicima poslodavca u stečaju podnošenje zahtjeva za ostvarivanje prava u slučaju stečaja poslodavca (obrazac RPS-01). Zahtjev se podnosi AORT-u, o kojem AORT odlučuje rješenjem u upravnom postupku.">e-Osiguranje radničkih tražbina</a></li></ul><div class="box_navigation_eusluge-nias_themes-8_8 pager-nav"><a class="first_link  no_more" href="">&lt;&lt;</a><a class="previous_link  no_more" href="">&lt;</a><span class="ellipse less" style="display: none;">...</span><a class="page_link  first active_page" href="" longdesc="0" style="display: block;">1</a><a class="page_link " href="" longdesc="1" style="display: block;">2</a><a class="page_link  last" href="" longdesc="2" style="display: block;">3</a><span class="ellipse more" style="display: none;">...</span><a class="next_link" href="">&gt;</a><a class="last_link" href="">&gt;&gt;</a></div></div><div class="themes-9 cbox" style="height: 313px;"><h3 id="eusluge-nias_themes-9" class="cbox-title">Poslovanje&nbsp;<span>(15)</span></h3><span class="counter"></span><ul class="themes-9"><li style="display: list-item;"><a target="blank" href="https://egradani.hkoig.hr/nias/login" title="Pružatelj: Hrvatska komora ovlaštenih inženjera geodezije
+Opis: Usluga omogućava radnicima poslodavca u stečaju podnošenje zahtjeva za ostvarivanje prava u slučaju stečaja poslodavca (obrazac RPS-01). Zahtjev se podnosi AORT-u, o kojem AORT odlučuje rješenjem u upravnom postupku.">e-Osiguranje
+                        radničkih tražbina</a></li>
+                </ul>
+                <div class="box_navigation_eusluge-nias_themes-8_8 pager-nav"><a class="first_link  no_more" href="">&lt;&lt;</a><a
+                        class="previous_link  no_more" href="">&lt;</a><span class="ellipse less"
+                                                                             style="display: none;">...</span><a
+                        class="page_link  first active_page" href="" longdesc="0" style="display: block;">1</a><a
+                        class="page_link " href="" longdesc="1" style="display: block;">2</a><a class="page_link  last"
+                                                                                                href="" longdesc="2"
+                                                                                                style="display: block;">3</a><span
+                        class="ellipse more" style="display: none;">...</span><a class="next_link" href="">&gt;</a><a
+                        class="last_link" href="">&gt;&gt;</a></div>
+            </div>
+            <div class="themes-9 cbox" style="height: 313px;"><h3 class="cbox-title" id="eusluge-nias_themes-9">
+                Poslovanje&nbsp;<span>(15)</span></h3><span class="counter"></span>
+                <ul class="themes-9">
+                    <li style="display: list-item;"><a href="https://egradani.hkoig.hr/nias/login" target="blank"
+                                                       title="Pružatelj: Hrvatska komora ovlaštenih inženjera geodezije
 Usluga aktivna od: 26.06.2019.
 Razina autentifikacije: 3 - znatna sigurnost
 Opis: Usluga omogućava osobama geodetske
 struke pribavljanje potvrda (dokaza)
 o upisu u Imenik/evidenciju(e) i druge
-postupke vezane uz Imenik/evidenciju(e)">Postupci vezani uz članstvo u Hrvatskoj komori ovlaštenih inženjera geodezije</a></li><li style="display: list-item;"><a target="blank" href="https://egradani.hkie.hr/nias/login" title="Pružatelj: Hrvatska komora inženjera elektrotehnike
+postupke vezane uz Imenik/evidenciju(e)">Postupci vezani uz članstvo u Hrvatskoj komori ovlaštenih inženjera
+                        geodezije</a></li>
+                    <li style="display: list-item;"><a href="https://egradani.hkie.hr/nias/login" target="blank" title="Pružatelj: Hrvatska komora inženjera elektrotehnike
 Usluga aktivna od: 24.06.2019.
 Razina autentifikacije: 3 - znatna sigurnost
-Opis: Usluga omogućava članovima HKIE preuzimanje potvrde o članstvu">Postupci vezani uz članstvo u Hrvatskoj komori inženjera elektrotehnike</a></li><li style="display: list-item;"><a target="blank" href="https://pbsreg.mup.hr/pbsreg" title="Pružatelj: Ministarstvo unutarnjih poslova
+Opis: Usluga omogućava članovima HKIE preuzimanje potvrde o članstvu">Postupci vezani uz članstvo u Hrvatskoj komori
+                        inženjera elektrotehnike</a></li>
+                    <li style="display: list-item;"><a href="https://pbsreg.mup.hr/pbsreg" target="blank" title="Pružatelj: Ministarstvo unutarnjih poslova
 Usluga aktivna od: 15.04.2016.
 Razina autentifikacije: 2 - niska sigurnost
-Opis: Usluga omogućava  vlasnicima apartmana, hotela ili odgovornim osobama u hotelima da u elektronskom obliku predaju zahtjev za registraciju objekta u kojem se pruža usluga smještaja stranim gostima, provjeru statusa podnijetog zahtjeva. Nakon registracije objekta, usluga omogućuje promjenu ili ispravak  kontakt podataka ili podataka vezanih uz registrirani objekt">Registracija objekata koji pružaju uslugu smještaja strancima</a></li><li style="display: list-item;"><a target="blank" href="https://e-obrt.gov.hr" title="Pružatelj: Ministarstvo gospodarstva i održivog razvoja
+Opis: Usluga omogućava  vlasnicima apartmana, hotela ili odgovornim osobama u hotelima da u elektronskom obliku predaju zahtjev za registraciju objekta u kojem se pruža usluga smještaja stranim gostima, provjeru statusa podnijetog zahtjeva. Nakon registracije objekta, usluga omogućuje promjenu ili ispravak  kontakt podataka ili podataka vezanih uz registrirani objekt">Registracija
+                        objekata koji pružaju uslugu smještaja strancima</a></li>
+                    <li style="display: list-item;"><a href="https://e-obrt.gov.hr" target="blank" title="Pružatelj: Ministarstvo gospodarstva i održivog razvoja
 Usluga aktivna od: 23.09.2015.
 Razina autentifikacije: 2 - niska sigurnost
-Opis: Usluga omogućava online podnošenje zahtjeva za iniciranje postupka osnivanja obrta bez odlaska u nadležna registarska tijela, dobivanje službenih dokumenata putem OKP-a, preuzimanje službenih dokumenata iz sustava OR-a, kao i podnošenje zahtjeva za provođenje statusnih promjena u Obrtnom registru za postojeće obrte.">e-Obrt</a></li><li style="display: list-item;"><a target="blank" href="https://www.evisitor.hr" title="Pružatelj: Hrvatska turistička zajednica
+Opis: Usluga omogućava online podnošenje zahtjeva za iniciranje postupka osnivanja obrta bez odlaska u nadležna registarska tijela, dobivanje službenih dokumenata putem OKP-a, preuzimanje službenih dokumenata iz sustava OR-a, kao i podnošenje zahtjeva za provođenje statusnih promjena u Obrtnom registru za postojeće obrte.">e-Obrt</a>
+                    </li>
+                    <li style="display: list-item;"><a href="https://www.evisitor.hr" target="blank" title="Pružatelj: Hrvatska turistička zajednica
 Usluga aktivna od: 17.05.2016.
 Razina autentifikacije: 3 - znatna sigurnost
-Opis: eVisitor je jedinstveni nacionalni online informacijski sustav koji povezuje sve turističke zajednice u Republici Hrvatskoj i omogućava dnevni uvid u stanje turističkog prometa, ažurnu bazu podataka o smještajnim objektima i pružateljima usluga smještaja, izvještavanje u statističke i marketinške svrhe u realnom vremenu te bolju kontrolu naplate boravišne pristojbe s ciljem ostvarivanja većih prihoda u sektoru turizma.">eVisitor (prijava vjerodajnicom minimalno razine 3)</a></li><li style="display: none;"><a target="blank" href="https://egrad.hkig.hr/nias/login" title="Pružatelj: Hrvatska komora inženjera građevinarstva
+Opis: eVisitor je jedinstveni nacionalni online informacijski sustav koji povezuje sve turističke zajednice u Republici Hrvatskoj i omogućava dnevni uvid u stanje turističkog prometa, ažurnu bazu podataka o smještajnim objektima i pružateljima usluga smještaja, izvještavanje u statističke i marketinške svrhe u realnom vremenu te bolju kontrolu naplate boravišne pristojbe s ciljem ostvarivanja većih prihoda u sektoru turizma.">eVisitor
+                        (prijava vjerodajnicom minimalno razine 3)</a></li>
+                    <li style="display: none;"><a href="https://egrad.hkig.hr/nias/login" target="blank" title="Pružatelj: Hrvatska komora inženjera građevinarstva
 Usluga aktivna od: 24.06.2019.
 Razina autentifikacije: 2 - niska sigurnost
-Opis: Usluga omogućava osobama građevinske struke pribavljanje potvrda (dokaza) o upisu u Imenike/Upisnike/evidencije i druge postupke vezane uz Imenike/Upisnik/evidencije">Postupci vezani uz članstvo u Hrvatskoj komori inženjera građevinarstva</a></li><li style="display: none;"><a target="blank" href="https://egradani.hkis.hr/nias/login" title="Pružatelj: Hrvatska komora inženjera strojarstva
+Opis: Usluga omogućava osobama građevinske struke pribavljanje potvrda (dokaza) o upisu u Imenike/Upisnike/evidencije i druge postupke vezane uz Imenike/Upisnik/evidencije">Postupci
+                        vezani uz članstvo u Hrvatskoj komori inženjera građevinarstva</a></li>
+                    <li style="display: none;"><a href="https://egradani.hkis.hr/nias/login" target="blank" title="Pružatelj: Hrvatska komora inženjera strojarstva
 Usluga aktivna od: 24.06.2019.
 Razina autentifikacije: 2 - niska sigurnost
-Opis: Usluga omogućava članovima Komore izdavanje Potvrda o upisu u imenike Hrvatske komore inženjera strojarstva elektroničkim putem.">Postupci vezani uz članstvo u Hrvatskoj komori inženjera strojarstva</a></li><li style="display: none;"><a target="blank" href="https://start.gov.hr" title="Pružatelj: Ministarstvo gospodarstva i održivog razvoja
+Opis: Usluga omogućava članovima Komore izdavanje Potvrda o upisu u imenike Hrvatske komore inženjera strojarstva elektroničkim putem.">Postupci
+                        vezani uz članstvo u Hrvatskoj komori inženjera strojarstva</a></li>
+                    <li style="display: none;"><a href="https://start.gov.hr" target="blank" title="Pružatelj: Ministarstvo gospodarstva i održivog razvoja
 Usluga aktivna od: 08.01.2020.
 Razina autentifikacije: 4 - visoka sigurnost
-Opis: Nova usluga na tržištu RH koja omogućava korisnicima pokretanje poslovanja za d.o.o., j.d.o.o. i obrte elektroničkim putem. Korisnici putem sustava mogu upisati društvo u sudski registar odnosno obrt u Obrtni registar, evidentirati se u Državni zavod za statistiku, prijaviti se u Registar poreznih obveznika, sustav PDV-a i/ili zatražiti dodjelu PVD ID broja pri Poreznoj upravi, registrirati se u sustav HZMO-a te otvoriti transakcijski račun u poslovnoj banci.">START - elektroničko pokretanje poslovanja</a></li><li style="display: none;"><a target="blank" href="https://edetektivi.mup.hr" title="Pružatelj: Ministarstvo unutarnjih poslova
+Opis: Nova usluga na tržištu RH koja omogućava korisnicima pokretanje poslovanja za d.o.o., j.d.o.o. i obrte elektroničkim putem. Korisnici putem sustava mogu upisati društvo u sudski registar odnosno obrt u Obrtni registar, evidentirati se u Državni zavod za statistiku, prijaviti se u Registar poreznih obveznika, sustav PDV-a i/ili zatražiti dodjelu PVD ID broja pri Poreznoj upravi, registrirati se u sustav HZMO-a te otvoriti transakcijski račun u poslovnoj banci.">START
+                        - elektroničko pokretanje poslovanja</a></li>
+                    <li style="display: none;"><a href="https://edetektivi.mup.hr" target="blank" title="Pružatelj: Ministarstvo unutarnjih poslova
 Usluga aktivna od: 16.07.2018.
 Razina autentifikacije: 3 - znatna sigurnost
-Opis: Usluga omogućava predaju zahtjeva za: izdavanje dopuštenja za obavljanje poslova privatnog detektiva; polaganje stručnog ispita; priznavanje inozemne stručne kvalifikacije; izdavanje odobrenja za obavljanje detektivske djelatnosti pravnim osobama ili obrtnicima.">e-Detektivi</a></li><li style="display: none;"><a target="blank" href="https://epostupci.dziv.hr" title="Pružatelj: Državni zavod za intelektualno vlasništvo
+Opis: Usluga omogućava predaju zahtjeva za: izdavanje dopuštenja za obavljanje poslova privatnog detektiva; polaganje stručnog ispita; priznavanje inozemne stručne kvalifikacije; izdavanje odobrenja za obavljanje detektivske djelatnosti pravnim osobama ili obrtnicima.">e-Detektivi</a>
+                    </li>
+                    <li style="display: none;"><a href="https://epostupci.dziv.hr" target="blank" title="Pružatelj: Državni zavod za intelektualno vlasništvo
 Usluga aktivna od: 01.12.2017.
 Razina autentifikacije: 2 - niska sigurnost
-Opis: Podnošenje prijave za polaganje ispita za ovlaštenog zastupnika u području prava industrijskog vlasništva; podnošenje zahtjeva za upis u Registar ovlaštenih zastupnika u području prava industrijskog vlasništva; podnošenje e-zahtjeva za upis promjene podataka u Registru ovlaštenih zastupnika u području prava industrijskog vlasništva; podnošenje e-zahtjeva za izdavanje odobrenja za kolektivno ostvarivanje autorskog ili srodnih prava">Zastupanje i kolektivno ostvarivanje prava intelektualnog vlasništva</a></li><li style="display: none;"><a target="blank" href="https://arhitekti-hka.hr/hr/e-gradani/" title="Pružatelj: Hrvatska komora arhitekata
+Opis: Podnošenje prijave za polaganje ispita za ovlaštenog zastupnika u području prava industrijskog vlasništva; podnošenje zahtjeva za upis u Registar ovlaštenih zastupnika u području prava industrijskog vlasništva; podnošenje e-zahtjeva za upis promjene podataka u Registru ovlaštenih zastupnika u području prava industrijskog vlasništva; podnošenje e-zahtjeva za izdavanje odobrenja za kolektivno ostvarivanje autorskog ili srodnih prava">Zastupanje
+                        i kolektivno ostvarivanje prava intelektualnog vlasništva</a></li>
+                    <li style="display: none;"><a href="https://arhitekti-hka.hr/hr/e-gradani/" target="blank" title="Pružatelj: Hrvatska komora arhitekata
 Usluga aktivna od: 01.06.2018.
 Razina autentifikacije: 3 - znatna sigurnost
-Opis: Korisniku se omogućava pristup zahtjevima HKA, usluga omogućava fizičkim osobama predaju zahtjeva za dobivanje ovlaštenja, za registraciju samostalne djelatnosti">Postupci vezani uz članstvo Hrvatske komore arhitekata</a></li><li style="display: none;"><a target="blank" href="https://strucni-ispit.dgu.hr/" title="Pružatelj: Državna geodetska uprava
+Opis: Korisniku se omogućava pristup zahtjevima HKA, usluga omogućava fizičkim osobama predaju zahtjeva za dobivanje ovlaštenja, za registraciju samostalne djelatnosti">Postupci
+                        vezani uz članstvo Hrvatske komore arhitekata</a></li>
+                    <li style="display: none;"><a href="https://strucni-ispit.dgu.hr/" target="blank" title="Pružatelj: Državna geodetska uprava
 Usluga aktivna od: 13.02.2018.
 Razina autentifikacije: 2 - niska sigurnost
-Opis: Podnošenje zahtjeva za prijavu polaganja stručnog ispita za obavljanje stručnih geodetskih poslova i izdavanje potvrde o položenom stručnom ispitu">e-Aplikacija za prijavu polaganja stručnog ispita za obavljanje stručnih geodetskih poslova</a></li><li style="display: none;"><a target="blank" href="https://gospodarskemjere.fina.hr" title="Pružatelj: Ministarstvo financija
+Opis: Podnošenje zahtjeva za prijavu polaganja stručnog ispita za obavljanje stručnih geodetskih poslova i izdavanje potvrde o položenom stručnom ispitu">e-Aplikacija
+                        za prijavu polaganja stručnog ispita za obavljanje stručnih geodetskih poslova</a></li>
+                    <li style="display: none;"><a href="https://gospodarskemjere.fina.hr" target="blank" title="Pružatelj: Ministarstvo financija
 Usluga aktivna od: 21.04.2020.
 Razina autentifikacije: 2 - niska sigurnost
-Opis: Digitalna platforma putem koje je gospodarskim subjektima omogućeno elektroničko podnošenje prijave na mjere: krediti za likvidnost i radni kapital, odgoda plaćanja kredita, reprogram kredita. Putem platforme omogućuje se prikupljanje podataka nužnih za odluku o odobrenju mjere te izvještajni sustav za praćenje realizacije mjera.">Portal MJERE - očuvanje gospodarske aktivnosti i likvidnosti</a></li><li style="display: none;"><a target="blank" href="https://eprijava.dziv.hr/nias" title="Pružatelj: Državni zavod za intelektualno vlasništvo
+Opis: Digitalna platforma putem koje je gospodarskim subjektima omogućeno elektroničko podnošenje prijave na mjere: krediti za likvidnost i radni kapital, odgoda plaćanja kredita, reprogram kredita. Putem platforme omogućuje se prikupljanje podataka nužnih za odluku o odobrenju mjere te izvještajni sustav za praćenje realizacije mjera.">Portal
+                        MJERE - očuvanje gospodarske aktivnosti i likvidnosti</a></li>
+                    <li style="display: none;"><a href="https://eprijava.dziv.hr/nias" target="blank" title="Pružatelj: Državni zavod za intelektualno vlasništvo
 Usluga aktivna od: 18.03.2020.
 Razina autentifikacije: 4 - visoka sigurnost
-Opis: Prijava industrijskog vlasništva je elektronička usluga koja omogućava podnošenje prijave i naknadnih podnesaka u postupku zaštite prava industrijskog vlasništva putem interneta.">Prijava industrijskog vlasništva</a></li><li style="display: none;"><a target="blank" href="https://rsv.fina.hr/RSV-javnost" title="Pružatelj: Ministarstvo financija
+Opis: Prijava industrijskog vlasništva je elektronička usluga koja omogućava podnošenje prijave i naknadnih podnesaka u postupku zaštite prava industrijskog vlasništva putem interneta.">Prijava
+                        industrijskog vlasništva</a></li>
+                    <li style="display: none;"><a href="https://rsv.fina.hr/RSV-javnost" target="blank" title="Pružatelj: Ministarstvo financija
 Usluga aktivna od: 19.02.2020.
 Razina autentifikacije: 2 - niska sigurnost
-Opis: Usluga omogućava uvid u podatke o fizičkim osobama stvarnim vlasnicima konkretnog pravnog subjekta.">Uvid u Registar stvarnih vlasnika</a></li></ul><div class="box_navigation_eusluge-nias_themes-9_9 pager-nav"><a class="first_link  no_more" href="">&lt;&lt;</a><a class="previous_link  no_more" href="">&lt;</a><span class="ellipse less" style="display: none;">...</span><a class="page_link  first active_page" href="" longdesc="0" style="display: block;">1</a><a class="page_link " href="" longdesc="1" style="display: block;">2</a><a class="page_link  last" href="" longdesc="2" style="display: block;">3</a><span class="ellipse more" style="display: none;">...</span><a class="next_link" href="">&gt;</a><a class="last_link" href="">&gt;&gt;</a></div></div><div class="themes-11 cbox" style="height: 313px;"><h3 id="eusluge-nias_themes-11" class="cbox-title">Stanovanje i okoliš&nbsp;<span>(6)</span></h3><span class="counter"></span><ul class="themes-11"><li style="display: list-item;"><a target="blank" href="https://dozvola.mgipu.hr" title="Pružatelj: Ministarstvo prostornoga uređenja, graditeljstva i državne imovine
+Opis: Usluga omogućava uvid u podatke o fizičkim osobama stvarnim vlasnicima konkretnog pravnog subjekta.">Uvid u
+                        Registar stvarnih vlasnika</a></li>
+                </ul>
+                <div class="box_navigation_eusluge-nias_themes-9_9 pager-nav"><a class="first_link  no_more" href="">&lt;&lt;</a><a
+                        class="previous_link  no_more" href="">&lt;</a><span class="ellipse less"
+                                                                             style="display: none;">...</span><a
+                        class="page_link  first active_page" href="" longdesc="0" style="display: block;">1</a><a
+                        class="page_link " href="" longdesc="1" style="display: block;">2</a><a class="page_link  last"
+                                                                                                href="" longdesc="2"
+                                                                                                style="display: block;">3</a><span
+                        class="ellipse more" style="display: none;">...</span><a class="next_link" href="">&gt;</a><a
+                        class="last_link" href="">&gt;&gt;</a></div>
+            </div>
+            <div class="themes-11 cbox" style="height: 313px;"><h3 class="cbox-title" id="eusluge-nias_themes-11">
+                Stanovanje i okoliš&nbsp;<span>(6)</span></h3><span class="counter"></span>
+                <ul class="themes-11">
+                    <li style="display: list-item;"><a href="https://dozvola.mgipu.hr" target="blank" title="Pružatelj: Ministarstvo prostornoga uređenja, graditeljstva i državne imovine
 Usluga aktivna od: 26.04.2019.
 Razina autentifikacije: 4 - visoka sigurnost
-Opis: Usluga omogućava podnositeljima elektroničku predaju zahtjeva za izdavanje dozvola za gradnju, praćenje stanja spisa, prilaganje dokumentacije, a za ovlaštene korisnike kompletno vođenje i rješavanje predmeta">eDozvola - predaja zahtjeva za gradnju i prostorno uređenje</a></li><li style="display: list-item;"><a target="blank" href="https://api.medjimurske-vode.hr/mvode_site/" title="Pružatelj: Međimurske vode d.o.o.
+Opis: Usluga omogućava podnositeljima elektroničku predaju zahtjeva za izdavanje dozvola za gradnju, praćenje stanja spisa, prilaganje dokumentacije, a za ovlaštene korisnike kompletno vođenje i rješavanje predmeta">eDozvola
+                        - predaja zahtjeva za gradnju i prostorno uređenje</a></li>
+                    <li style="display: list-item;"><a href="https://api.medjimurske-vode.hr/mvode_site/" target="blank"
+                                                       title="Pružatelj: Međimurske vode d.o.o.
 Usluga aktivna od: 01.04.2017.
 Razina autentifikacije: 2 - niska sigurnost
-Opis: Usluga omogućava fizičkim osobama za potrošna mjesta označena njihovim OIB-om: pregled zaduženja i uplata, pregled upisanih stanja brojila, ispis računa.">Vodne usluge Međimurskih voda</a></li><li style="display: list-item;"><a target="blank" href="https://oss.uredjenazemlja.hr/private/" title="Pružatelj: Ministarstvo pravosuđa i uprave
+Opis: Usluga omogućava fizičkim osobama za potrošna mjesta označena njihovim OIB-om: pregled zaduženja i uplata, pregled upisanih stanja brojila, ispis računa.">Vodne
+                        usluge Međimurskih voda</a></li>
+                    <li style="display: list-item;"><a href="https://oss.uredjenazemlja.hr/private/" target="blank"
+                                                       title="Pružatelj: Ministarstvo pravosuđa i uprave
 Usluga aktivna od: 28.07.2014.
 Razina autentifikacije: 2 - niska sigurnost
-Opis: Omogućava korisnicima izdavanje zemljišnoknjižnog izvatka te izvatka iz knjige položenih ugovora u svrhu ostvarivanja prava nad nekretninama. Digitalno potpisane isprave se izrađuju i preuzimaju u OSS sustavu uz plaćanje pristojbe.">Zajednički informacijski sustav zemljišnih knjiga i katastra - ZIS OSS</a></li><li style="display: list-item;"><a target="blank" href="https://zgh.gov.hr/zgh/zgh/servlet/proweb/k25servisinias/Izbornik" title="Pružatelj: Zagrebački holding d.o.o.
+Opis: Omogućava korisnicima izdavanje zemljišnoknjižnog izvatka te izvatka iz knjige položenih ugovora u svrhu ostvarivanja prava nad nekretninama. Digitalno potpisane isprave se izrađuju i preuzimaju u OSS sustavu uz plaćanje pristojbe.">Zajednički
+                        informacijski sustav zemljišnih knjiga i katastra - ZIS OSS</a></li>
+                    <li style="display: list-item;"><a href="https://zgh.gov.hr/zgh/zgh/servlet/proweb/k25servisinias/Izbornik"
+                                                       target="blank"
+                                                       title="Pružatelj: Zagrebački holding d.o.o.
 Usluga aktivna od: 30.12.2015.
 Razina autentifikacije: 2 - niska sigurnost
-Opis: Korisnik usluga Zagrebačkog holdinga može odabrati na koji način će primati Jedinstvenu uplatnicu,kuvertiranu na kućnu adresu ili u korisnički pretinac. Usluga će pružati  uvid u podatke sa uplatnica i stanje duga.">Komunalne usluge i naknade</a></li><li style="display: list-item;"><a target="blank" href="https://eobnova.gov.hr/eobnova/" title="Pružatelj: Ministarstvo prostornoga uređenja, graditeljstva i državne imovine
+Opis: Korisnik usluga Zagrebačkog holdinga može odabrati na koji način će primati Jedinstvenu uplatnicu,kuvertiranu na kućnu adresu ili u korisnički pretinac. Usluga će pružati  uvid u podatke sa uplatnica i stanje duga.">Komunalne
+                        usluge i naknade</a></li>
+                    <li style="display: list-item;"><a href="https://eobnova.gov.hr/eobnova/" target="blank" title="Pružatelj: Ministarstvo prostornoga uređenja, graditeljstva i državne imovine
 Usluga aktivna od: 04.03.2021.
 Razina autentifikacije: 3 - znatna sigurnost
-Opis: Usluga omogućava vlasnicima i suvlasnicima potresom oštećenih kuća i zgrada podnošenje zahtjeva za obnovu ili novčanu pomoć elektroničkim putem bez potrebe za prikupljanjem dokumenata i podloga u papirnatom obliku ili fizičkim odlascima u nadležne urede.">eObnova</a></li><li style="display: none;"><a target="blank" href="https://mojracun.gpz-opskrba.hr/nias.aspx" title="Pružatelj: Gradska plinara Zagreb Opskrba d.o.o.
+Opis: Usluga omogućava vlasnicima i suvlasnicima potresom oštećenih kuća i zgrada podnošenje zahtjeva za obnovu ili novčanu pomoć elektroničkim putem bez potrebe za prikupljanjem dokumenata i podloga u papirnatom obliku ili fizičkim odlascima u nadležne urede.">eObnova</a>
+                    </li>
+                    <li style="display: none;"><a href="https://mojracun.gpz-opskrba.hr/nias.aspx" target="blank"
+                                                  title="Pružatelj: Gradska plinara Zagreb Opskrba d.o.o.
 Usluga aktivna od: 14.01.2020.
 Razina autentifikacije: 2 - niska sigurnost
-Opis: Usluga omogućava praćenje stanja računa za plin, preuzimanje računa u pdf formatu, dojavu stanja plinomjera, odabir načina dostave računa, informativni izračun troškova potrošnje, postavljanje upita, predaju zahtjeva za mjesečni obračun potrošnje plina i sl.">Moj račun - Gradska plinara Zagreb-Opskrba</a></li></ul><div class="box_navigation_eusluge-nias_themes-11_11 pager-nav"><a class="first_link  no_more" href="">&lt;&lt;</a><a class="previous_link  no_more" href="">&lt;</a><span class="ellipse less" style="display: none;">...</span><a class="page_link  first active_page" href="" longdesc="0" style="display: block;">1</a><a class="page_link  last" href="" longdesc="1" style="display: block;">2</a><span class="ellipse more" style="display: none;">...</span><a class="next_link" href="">&gt;</a><a class="last_link" href="">&gt;&gt;</a></div></div></div>
-		      <div class="eusluge-other-holder">
-		      	<h1 id="eusluge-other" class="eup_title">Ostale e-usluge u Republici Hrvatskoj<span class="e-usluge-updown">&nbsp;</span></h1>
-		      	<div class="sort-link" id="eusluge-other_alpha-sort" title="Sortiraj abecedno">Abecedno</div>
-			      <div class="sort-link" id="eusluge-other_provider-sort" title="Sortiraj po instituciji">Institucije</div>
-			      <div class="sort-link" id="eusluge-other_theme-sort" title="Sortiraj po temi">Teme</div>
-		      </div>
-		      <div class="alpha-sort-holder" id="eusluge-other_alphaSort"></div>
-		      <div class="eusluge-other" style="display: none;"></div>
-		      <div class="eporuke-holder"><h1 id="eporuke" class="eup_title">Popis e-poruka u <span style="color:#D71920;">Osobnom korisničkom pretincu</span><span class="e-usluge-updown">&nbsp;</span></h1>
-			      <div class="sort-link" id="eporuke_alpha-sort" title="Sortiraj abecedno">Abecedno</div>
-			      <div class="sort-link" id="eporuke_provider-sort" title="Sortiraj po instituciji">Institucije</div>
-			      <div class="sort-link" id="eporuke_theme-sort" title="Sortiraj po temi">Teme</div>
-		      </div>
-		      <div class="alpha-sort-holder" id="eporuke_alphaSort"></div>
-				<div class="eporuke" style="display: none;"></div>
-			</div>
-		</div>
-	  	<div class="clear"></div>
-	  	<div class="space_24"></div>
-	  	<div id="cookie-inner-wrapper" style="display: block;">
-	    	<div class="center">
-	     		<div id="cookie-wrapper">
-	        		<div id="cookie-info-wrapper">Ove internetske stranice koriste kolačiće (tzv. <em>cookies</em>) za pružanje boljeg korisničkog iskustva i funkcionalnosti. Postavke kolačića možete podesiti u svojem internetskom pregledniku. Više o kolačićima i načinu kako ih koristimo te načinu kako ih onemogućiti pročitajte <a href="https://gov.hr/cookies/1541" target="_blank">ovdje</a>. Klikom na gumb 'U redu' pristajete na korištenje kolačića.</div>
-	        		<p id="cookie-button">U redu</p>
-	      	</div>
-	    	</div>
-	  	</div>
-	  	<footer class="footer_gov">
-	    	<div class="center">
-	      	<div class="footer_vrh">
-	        		<a class="goToTop" href="javascript:void(0)">Povratak na vrh</a>
-	      	</div>
-	      	<div class="footer_cp">Copyright © 2014 Vlada Republike Hrvatske. Sva prava pridržana.</div>
-	      	<span class="apis"><a href="http://www.apis-it.hr" target="_blank">APIS IT</a></span>
-	    	</div>
-	    	<div class="clear"></div>
-	  	</footer>
-	  	<div class="info"></div>
-		<script src="/KorisnickiPretinac/js/jquery-1.11.0.min.js"></script>
-		<script src="/KorisnickiPretinac/js/jquery-ui-1.10.4.custom.min.js"></script>
-		<script src="/KorisnickiPretinac/js/eg-jquery.fancybox.js"></script>
-		<script src="/KorisnickiPretinac/js/eg-jquery.refineslide.min.js"></script>
-		<script src="/KorisnickiPretinac/js/eg-jquery.easing.1.3.js"></script>
-		<script src="/KorisnickiPretinac/js/jquery.pajinate.min.js"></script>
-		<script src="/KorisnickiPretinac/js/jquery.xdomainrequest.min.js"></script>
-		<script src="/KorisnickiPretinac/js/spin.min.js"></script>
-		<script charset="utf-8" src="/KorisnickiPretinac/js/eg-script.js"></script>
-		<script charset="utf-8" src="/KorisnickiPretinac/js/egradani.js"></script>
-		<script charset="utf-8" src="/KorisnickiPretinac/js/kp.e-usluge.js"></script>
-		<script>
+Opis: Usluga omogućava praćenje stanja računa za plin, preuzimanje računa u pdf formatu, dojavu stanja plinomjera, odabir načina dostave računa, informativni izračun troškova potrošnje, postavljanje upita, predaju zahtjeva za mjesečni obračun potrošnje plina i sl.">Moj
+                        račun - Gradska plinara Zagreb-Opskrba</a></li>
+                </ul>
+                <div class="box_navigation_eusluge-nias_themes-11_11 pager-nav"><a class="first_link  no_more" href="">&lt;&lt;</a><a
+                        class="previous_link  no_more" href="">&lt;</a><span class="ellipse less"
+                                                                             style="display: none;">...</span><a
+                        class="page_link  first active_page" href="" longdesc="0" style="display: block;">1</a><a
+                        class="page_link  last" href="" longdesc="1" style="display: block;">2</a><span
+                        class="ellipse more" style="display: none;">...</span><a class="next_link" href="">&gt;</a><a
+                        class="last_link" href="">&gt;&gt;</a></div>
+            </div>
+        </div>
+        <div class="eusluge-other-holder">
+            <h1 class="eup_title" id="eusluge-other">Ostale e-usluge u Republici Hrvatskoj<span class="e-usluge-updown">&nbsp;</span>
+            </h1>
+            <div class="sort-link" id="eusluge-other_alpha-sort" title="Sortiraj abecedno">Abecedno</div>
+            <div class="sort-link" id="eusluge-other_provider-sort" title="Sortiraj po instituciji">Institucije</div>
+            <div class="sort-link" id="eusluge-other_theme-sort" title="Sortiraj po temi">Teme</div>
+        </div>
+        <div class="alpha-sort-holder" id="eusluge-other_alphaSort"></div>
+        <div class="eusluge-other" style="display: none;"></div>
+        <div class="eporuke-holder"><h1 class="eup_title" id="eporuke">Popis e-poruka u <span style="color:#D71920;">Osobnom korisničkom pretincu</span><span
+                class="e-usluge-updown">&nbsp;</span></h1>
+            <div class="sort-link" id="eporuke_alpha-sort" title="Sortiraj abecedno">Abecedno</div>
+            <div class="sort-link" id="eporuke_provider-sort" title="Sortiraj po instituciji">Institucije</div>
+            <div class="sort-link" id="eporuke_theme-sort" title="Sortiraj po temi">Teme</div>
+        </div>
+        <div class="alpha-sort-holder" id="eporuke_alphaSort"></div>
+        <div class="eporuke" style="display: none;"></div>
+    </div>
+</div>
+<div class="clear"></div>
+<div class="space_24"></div>
+<div id="cookie-inner-wrapper" style="display: block;">
+    <div class="center">
+        <div id="cookie-wrapper">
+            <div id="cookie-info-wrapper">Ove internetske stranice koriste kolačiće (tzv. <em>cookies</em>) za pružanje
+                boljeg korisničkog iskustva i funkcionalnosti. Postavke kolačića možete podesiti u svojem internetskom
+                pregledniku. Više o kolačićima i načinu kako ih koristimo te načinu kako ih onemogućiti pročitajte <a
+                        href="https://gov.hr/cookies/1541" target="_blank">ovdje</a>. Klikom na gumb 'U redu' pristajete
+                na korištenje kolačića.
+            </div>
+            <p id="cookie-button">U redu</p>
+        </div>
+    </div>
+</div>
+<footer class="footer_gov">
+    <div class="center">
+        <div class="footer_vrh">
+            <a class="goToTop" href="javascript:void(0)">Povratak na vrh</a>
+        </div>
+        <div class="footer_cp">Copyright © 2014 Vlada Republike Hrvatske. Sva prava pridržana.</div>
+        <span class="apis"><a href="http://www.apis-it.hr" target="_blank">APIS IT</a></span>
+    </div>
+    <div class="clear"></div>
+</footer>
+<div class="info"></div>
+<script src="/KorisnickiPretinac/js/jquery-1.11.0.min.js"></script>
+<script src="/KorisnickiPretinac/js/jquery-ui-1.10.4.custom.min.js"></script>
+<script src="/KorisnickiPretinac/js/eg-jquery.fancybox.js"></script>
+<script src="/KorisnickiPretinac/js/eg-jquery.refineslide.min.js"></script>
+<script src="/KorisnickiPretinac/js/eg-jquery.easing.1.3.js"></script>
+<script src="/KorisnickiPretinac/js/jquery.pajinate.min.js"></script>
+<script src="/KorisnickiPretinac/js/jquery.xdomainrequest.min.js"></script>
+<script src="/KorisnickiPretinac/js/spin.min.js"></script>
+<script charset="utf-8" src="/KorisnickiPretinac/js/eg-script.js"></script>
+<script charset="utf-8" src="/KorisnickiPretinac/js/egradani.js"></script>
+<script charset="utf-8" src="/KorisnickiPretinac/js/kp.e-usluge.js"></script>
+<script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -427,8 +814,11 @@ Opis: Usluga omogućava praćenje stanja računa za plin, preuzimanje računa u 
 		  ga('create', 'UA-52417765-18', 'auto');
 		  ga('send', 'pageview');
 
-		</script>
+
+</script>
 
 
-
-<ul class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content ui-corner-all" id="ui-id-1" tabindex="0" style="display: none;"></ul></body></html>
+<ul class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content ui-corner-all" id="ui-id-1" style="display: none;"
+    tabindex="0"></ul>
+</body>
+</html>
