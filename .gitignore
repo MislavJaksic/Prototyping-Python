@@ -116,3 +116,6 @@ dmypy.json
 # Additional ignore
 .idea
 protopy/parse/data/index.htm
+download/*
+unmarshalled_dynamodb.csv
+judicial_auctions.db
